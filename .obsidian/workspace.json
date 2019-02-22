@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "28d721e298867535",
+    "type": "split",
+    "children": [
+      {
+        "id": "41783760c056d404",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95feb44d674c999d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0517f03dbf9abbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "1de029fa910579f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30480e3fb613b347",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4ac55a814d663288",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ab858721946e4eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.50390243530273
+  },
+  "right": {
+    "id": "39b140f9e85dc4f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7108001c286f45c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0837d96519838a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7b229c92764a0cbe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d01a4090164959b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "763edf906d8b11d7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "73bdc684604c4a02",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "442849e1b71a4cd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f331df48a6e293e8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.820512820512821,
+                  "repelStrength": 12.6495726495727,
+                  "linkStrength": 0.538461538461538,
+                  "linkDistance": 250,
+                  "scale": 1.9051709115093813,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "95feb44d674c999d",
+  "lastOpenFiles": [
+    "Repos.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-25.md",
+    "Conversations 💬/Institutional & UK retro.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-24.md",
+    "People 👥/🚦 Conversations.md",
+    "🇯🇵 Japanese.md",
+    "💼 Work.md",
+    "Conversations 💬/Asking for a raise.md",
+    "00 🧰 Workbench/10 🚧 WIPs/🍿 Watchables.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-23.md",
+    "00 🧰 Workbench/10 🚧 WIPs/🎉 Birthdays.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-22.md",
+    "00 🧰 Workbench/00 📥 Inbox/asd.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-19.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Um sonho faz favor.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Ratel.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Pavão.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Mosca.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Lume Brando.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Louva-a-deus.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cobra.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cigano.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cheesecake.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Lesma.md",
+    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Químicos.md",
+    "People 👥",
+    "100 📎 Attachments/6_principles_of_design.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/already_did.png",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/99%_horny.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/2_black_guys_table_laugh.mp4",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/1_vs_all.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/0_hoes.jpg",
+    "Temps",
+    "Dating/Scripts",
+    "Dating/Leads",
+    "00 🧰 Workbench/10 📋 Briefs",
+    "Dating",
+    "100 📎 Attachments/paulo_bento_steal.gif",
+    "100 📎 Attachments/pc_making_dreams_come_true.jpg",
+    "00 🧰 Workbench/00 📥 Inbox/Buckets/Memes/Images/attentive_neandertal.jpg",
+    "100 📎 Attachments/crazy_laugh_emoji.jpg",
+    "100 📎 Attachments/hyper_connected.jpeg",
+    "100 📎 Attachments/sheikh_buys_cars.mp4",
+    "100 📎 Attachments/cuba_gooding_drunk_smile.mp4",
+    "100 📎 Attachments/chocolate_broccoli.mp4"
+  ]
+}

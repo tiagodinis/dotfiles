@@ -1,0 +1,17 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-GB",
+    "en-US",
+    "pt-PT"
+  ],
+  "promptDelete": true,
+  "legacyEditor": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 🧰 Workbench/00 📥 Inbox",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "100 📎 Attachments"
+}

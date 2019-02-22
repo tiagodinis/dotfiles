@@ -1,0 +1,9 @@
+{
+  "date-picker-week-start": 1,
+  "new-card-insertion-method": "prepend-compact",
+  "show-checkboxes": false,
+  "hide-date-display": false,
+  "hide-date-in-title": true,
+  "new-note-template": "10 🔭 Pursuits/Systematization/🗃️ Outputs/🔄 Templates/Organization/Project/t_task.md",
+  "show-view-as-markdown": false
+}

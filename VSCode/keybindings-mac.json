@@ -1,0 +1,191 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+m ctrl+,",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "editor.rulers",
+      "value": [
+        {
+          "editor.rulers": [80, 86]
+        },
+        {
+          "editor.rulers": []
+        }
+      ]
+    }
+  },
+  {
+    "key": "shift+space",
+    "command": "extension.aceJump",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "cmd+i",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "Edit.LineDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+j",
+    "command": "cursorWordStartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+;",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+u",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "editorScroll",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "revealCursor": true,
+      "value": 5
+    }
+  },
+  {
+    "key": "cmd+m",
+    "command": "editorScroll",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "revealCursor": true,
+      "value": 5
+    }
+  },
+  {
+    "key": "ctrl+cmd+[",
+    "command": "cursorPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+m",
+    "command": "cursorPageDown",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "shift+cmd+i",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+j",
+    "command": "cursorWordStartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+h",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+;",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "cursorLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "cursorRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "cursorPageUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "cursorPageDownSelect",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "ctrl+cmd+j",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+
+  {
+    "key": "ctrl+k shift+cmd+j",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "ctrl+k shift+cmd+l",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+
+  {
+    "key": "ctrl+f7",
+    "command": "editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "👁️ YYYY-MM-DD",
+    "template": "10 🔭 Pursuits/Systematization/🗃️ Outputs/🔄 Templates/Organization/Calendar/t_day.md",
+    "folder": "00 🧰 Workbench/20 👁️ Dashboards",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "👁️ gggg-[wk]-ww",
+    "template": "",
+    "folder": "00 🧰 Workbench/20 👁️ Dashboards",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": false
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": "90 🗄️ Archive/30 Years",
+    "enabled": true
+  }
+}

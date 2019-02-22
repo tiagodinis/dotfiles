@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "28d721e298867535",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3403ac9a49a52a5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Current work.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0517f03dbf9abbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "1de029fa910579f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30480e3fb613b347",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "file-explorer",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "4ac55a814d663288",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "questions",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "160031f3372e65a2",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 218.5
+  },
+  "right": {
+    "id": "39b140f9e85dc4f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7108001c286f45c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0837d96519838a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Current work.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7b229c92764a0cbe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Current work.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d01a4090164959b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "553bce31298afa8e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "763edf906d8b11d7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "442849e1b71a4cd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f331df48a6e293e8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Current work.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.820512820512821,
+                  "repelStrength": 12.6495726495727,
+                  "linkStrength": 0.538461538461538,
+                  "linkDistance": 250,
+                  "scale": 1.1871186823451783,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280,
+    "collapsed": true
+  },
+  "active": "f3403ac9a49a52a5",
+  "lastOpenFiles": [
+    "Math notes.md",
+    "Pantry.md",
+    "Standup notes.md",
+    "vscode plugins.md",
+    "Supplements.md",
+    "00 🧰 Workbench/10 📋 Briefs/📋 2022-08-05.md",
+    "00 🧰 Workbench/10 📋 Briefs/📋 2022-10-12.md",
+    "00 🧰 Workbench/10 📋 Briefs/📋 2022-10-11.md",
+    "00 🧰 Workbench/10 📋 Briefs/📋 2022-10-14.md",
+    "00 🧰 Workbench/10 📋 Briefs/📋 2022-10-13.md"
+  ]
+}
