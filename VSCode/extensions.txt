@@ -1,9 +1,10 @@
+astro-build.astro-vscode
 daylerees.rainglow
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 esbenp.prettier-vscode
-Gruntfuggly.todo-tree
+gruntfuggly.todo-tree
 lucax88x.codeacejumper
 mgmcdermott.vscode-language-babel
 rebornix.toggle
