@@ -43,6 +43,7 @@
     "hoverable",
     "interactable",
     "lerp",
+    "lightsabers",
     "linaria",
     "millis",
     "msaa",
@@ -57,5 +58,7 @@
     "svgs",
     "templating",
     "tiagodinis"
-  ]
+  ],
+  "diffEditor.codeLens": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
