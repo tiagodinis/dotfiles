@@ -9,7 +9,7 @@
     "enabled": true
   },
   "weekly": {
-    "format": "👁️ gggg-[wk]-ww",
+    "format": "👁️ gggg-[W]ww",
     "template": "",
     "folder": "00 🧰 Workbench/20 👁️ Dashboards",
     "enabled": true
@@ -18,7 +18,7 @@
     "format": "",
     "template": "",
     "folder": "",
-    "enabled": true
+    "enabled": false
   },
   "quarterly": {
     "format": "",

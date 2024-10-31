@@ -10,10 +10,20 @@
   "obsidian-linter",
   "obsidian-kanban",
   "mrj-jump-to-link",
-  "obsidian-fullscreen-plugin",
   "obsidian-sort-and-permute-lines",
   "url-into-selection",
   "obsidian-outliner",
   "obsidian-icon-shortcodes",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "meld-encrypt",
+  "share-note",
+  "obsidian-stille",
+  "drawio-obsidian",
+  "canvas-link-optimizer",
+  "optimize-canvas-connections",
+  "cmdr",
+  "janitor",
+  "obsidian-style-settings",
+  "dataview",
+  "obsidian-day-planner"
 ]

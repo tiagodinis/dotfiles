@@ -122,14 +122,6 @@
       "key": "D"
     }
   ],
-  "file-explorer:move-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
   "app:delete-file": [
     {
       "modifiers": [
@@ -360,6 +352,34 @@
   ],
   "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
   "mrj-jump-to-link:activate-jump-to-link": [],
+  "markdown:add-metadata-property": [],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "bookmarks:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
   "mrj-jump-to-link:activate-jump-to-anywhere": [],
   "mrj-jump-to-link:activate-lightspeed-jump": [
     {
@@ -368,6 +388,5 @@
       ],
       "key": " "
     }
-  ],
-  "markdown:add-metadata-property": []
+  ]
 }

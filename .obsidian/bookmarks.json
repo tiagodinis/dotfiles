@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1723805813332,
+      "path": "🏝️ Islands/📥 Inputs/📥 Index.md",
+      "title": "📥 Inputs"
+    },
+    {
+      "type": "file",
+      "ctime": 1723811150764,
+      "path": "🏝️ Islands/🧭 Priorities/🧭 Index.md",
+      "title": "🧭 Priorities"
+    },
+    {
+      "type": "group",
+      "ctime": 1723799598205,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1723799568813,
+          "path": "🏝️ Islands/🌱 Seeding/🌱 Index.md",
+          "title": "🌱 Seeding"
+        },
+        {
+          "type": "file",
+          "ctime": 1723801943406,
+          "path": "🏝️ Islands/🛩️ Nomadism/🛩️ Index.md",
+          "title": "🛩️ Nomadism"
+        },
+        {
+          "type": "file",
+          "ctime": 1723801932173,
+          "path": "🏝️ Islands/🚹 Body/🚹 Index.md",
+          "title": "🚹 Body"
+        },
+        {
+          "type": "file",
+          "ctime": 1723801849714,
+          "path": "🏝️ Islands/👥 People/👥 Index.md",
+          "title": "👥 People"
+        },
+        {
+          "type": "file",
+          "ctime": 1723801886932,
+          "path": "🏝️ Islands/🦚 Marketing/🦚 Index.md",
+          "title": "🦚 Marketing"
+        }
+      ],
+      "title": "Season"
+    }
+  ]
+}

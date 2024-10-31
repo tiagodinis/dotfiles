@@ -2,8 +2,9 @@
   "cssTheme": "",
   "translucency": false,
   "baseFontSizeAction": true,
-  "baseFontSize": 19,
+  "baseFontSize": 17,
   "accentColor": "",
   "theme": "obsidian",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showViewHeader": false
 }

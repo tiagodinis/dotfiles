@@ -11,7 +11,9 @@
   "legacyEditor": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "00 🧰 Workbench/00 📥 Inbox",
+  "newFileFolderPath": "",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "100 📎 Attachments"
+  "attachmentFolderPath": "100 📎 Attachments",
+  "showRibbon": false,
+  "showInlineTitle": true
 }

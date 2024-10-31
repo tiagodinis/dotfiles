@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41783760c056d404",
+        "id": "0859517e154dd2ad",
         "type": "tabs",
         "children": [
           {
-            "id": "95feb44d674c999d",
+            "id": "43e85b2aa65163b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "👁️ 2024-10-31"
             }
           }
         ]
@@ -34,13 +36,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30480e3fb613b347",
+            "id": "18c5afce0c7af812",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,22 +59,26 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "1ab858721946e4eb",
+            "id": "aa429c171096e700",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 217.50390243530273
+    "width": 246.5
   },
   "right": {
     "id": "39b140f9e85dc4f9",
@@ -81,35 +89,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0837d96519838a6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "7b229c92764a0cbe",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "d01a4090164959b5",
             "type": "leaf",
             "state": {
@@ -117,7 +96,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,11 +106,46 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
-            "id": "73bdc684604c4a02",
+            "id": "c60a050264b9bd31",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 👁️ 2024-10-31"
+            }
+          },
+          {
+            "id": "1271b2c373bdc9c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 👁️ 2024-10-31"
+            }
+          },
+          {
+            "id": "6dc1b80899863086",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -137,115 +153,95 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "237aef2433e331f5",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {},
+              "icon": "blocks",
+              "title": "Timeline"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "442849e1b71a4cd3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f331df48a6e293e8",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.820512820512821,
-                  "repelStrength": 12.6495726495727,
-                  "linkStrength": 0.538461538461538,
-                  "linkDistance": 250,
-                  "scale": 1.9051709115093813,
-                  "close": true
-                }
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "command-palette:Open command palette": true,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": true,
+      "meld-encrypt:New encrypted note": true,
+      "meld-encrypt:Convert to or from an Encrypted note": true,
+      "meld-encrypt:Encrypt/Decrypt": true,
+      "obsidian-stille:Toggle Stille": true,
+      "obsidian-kanban:Create new board": false,
+      "janitor:Janitor: scan vault": false,
+      "periodic-notes:Open today": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "95feb44d674c999d",
+  "active": "18c5afce0c7af812",
   "lastOpenFiles": [
-    "Repos.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-26.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-25.md",
-    "Conversations 💬/Institutional & UK retro.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-24.md",
-    "People 👥/🚦 Conversations.md",
-    "🇯🇵 Japanese.md",
-    "💼 Work.md",
-    "Conversations 💬/Asking for a raise.md",
-    "00 🧰 Workbench/10 🚧 WIPs/🍿 Watchables.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-23.md",
-    "00 🧰 Workbench/10 🚧 WIPs/🎉 Birthdays.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-22.md",
-    "00 🧰 Workbench/00 📥 Inbox/asd.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-01-19.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Um sonho faz favor.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Ratel.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Pavão.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Mosca.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Lume Brando.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Louva-a-deus.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cobra.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cigano.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Cheesecake.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Lesma.md",
-    "00 🧰 Workbench/10 🚧 WIPs/Writing/Poems/Químicos.md",
-    "People 👥",
-    "100 📎 Attachments/6_principles_of_design.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/already_did.png",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/99%_horny.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/2_black_guys_table_laugh.mp4",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/1_vs_all.jpg",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-30.md",
+    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes/Lasagna recipe.md",
+    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes/Index.md",
+    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes",
+    "Replies.md",
+    "10 🔭 Pursuits/Systematization/Resources.md",
+    "10 🔭 Pursuits/Systematization/Goals.md",
+    "🏝️ Islands/🚹 Body/🤸‍♂️ Mobility/🤸‍♂️ Routine.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-03.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-29.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-02.md",
+    "00 🧰 Workbench/30 📓 Logs/📓 2024-11-03.md",
+    "00 🧰 Workbench/30 📓 Logs/📓 2024-11-02.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-01.md",
+    "🏝️ Islands/📥 Inputs/🎮 Videogames.md",
+    "vidieogames.md",
+    "Mom gifts.md",
+    "🏝️ Islands/🧭 Priorities/🔒 Lock in.md",
+    "🏝️ Islands/🚹 Body/🤸‍♂️ Mobility/🤸‍♂️ Index.md",
+    "🏝️ Islands/🚹 Body/🧴 Skincare/🧴 Index.md",
+    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/🧴 Evening.md",
+    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/🧴 Morning.md",
+    "🏝️ Islands/📤 Outputs/🛍️ Wishlist.md",
+    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-04.md",
+    "🏝️ Islands/🚹 Body/💊 Supplementation/💊 Routine.md",
+    "00 🧰 Workbench/30 📓 Logs/📓 2024-10-29.md",
+    "00 🧰 Workbench/30 📓 Logs",
+    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/Untitled",
+    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine",
     "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/0_hoes.jpg",
-    "Temps",
-    "Dating/Scripts",
     "Dating/Leads",
-    "00 🧰 Workbench/10 📋 Briefs",
     "Dating",
-    "100 📎 Attachments/paulo_bento_steal.gif",
-    "100 📎 Attachments/pc_making_dreams_come_true.jpg",
-    "00 🧰 Workbench/00 📥 Inbox/Buckets/Memes/Images/attentive_neandertal.jpg",
-    "100 📎 Attachments/crazy_laugh_emoji.jpg",
-    "100 📎 Attachments/hyper_connected.jpeg",
-    "100 📎 Attachments/sheikh_buys_cars.mp4",
-    "100 📎 Attachments/cuba_gooding_drunk_smile.mp4",
-    "100 📎 Attachments/chocolate_broccoli.mp4"
+    "00 🧰 Workbench/00 📥 Inbox/🪣 Buckets/Memes/Images/attentive_neandertal.jpg",
+    "00 🧰 Workbench/00 📥 Inbox/Untitled Diagram.svg",
+    "New test note.mdenc",
+    "Untitled.canvas",
+    "00 🧰 Workbench/00 📥 Inbox/Untitled 20240928 113330.mdenc",
+    "00 🧰 Workbench/00 📥 Inbox/Untitled 20240928 113320.mdenc",
+    "Conversations 💬",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/bb_i_won.gif",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/are_ya_winning_son.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/bb_no1.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/already_did.png",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/aot_riled_up_captain.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/1_vs_all.jpg",
+    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/99%_horny.jpg",
+    "Lock in.canvas"
   ]
 }

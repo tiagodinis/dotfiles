@@ -1,0 +1,16 @@
+{
+  "kakano-style@@theme-setting-predefinedBaseColor": "theme-setting-baseColorPreset-whero",
+  "obsidian-chameleon-theme@@color-schemes-light": "color-scheme-catppuccin-latte",
+  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-kanagawa-dragon",
+  "lumines-theme@@folder-title-color": "folder-title-accent",
+  "neo-style@@neutral-bg": true,
+  "neo-style@@neo-tabs-off": true,
+  "neo-style@@heading-indicator-off": true,
+  "neo-style@@active-line": true,
+  "custom-diegoeis-obsidianotion@@eis-small-pinned-tabs": false,
+  "custom-diegoeis-obsidianotion@@eis-hide-ribbon": false,
+  "custom-diegoeis-obsidianotion@@eis-small-font": false,
+  "custom-diegoeis-obsidianotion@@eis-with-icons": false,
+  "custom-diegoeis-obsidianotion@@eis-empty-bg": false,
+  "custom-diegoeis-obsidianotion@@eis-font-type": "eis-font-default"
+}
