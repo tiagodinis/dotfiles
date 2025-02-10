@@ -1,4 +1,5 @@
 astro-build.astro-vscode
+bradlc.vscode-tailwindcss
 daylerees.rainglow
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
