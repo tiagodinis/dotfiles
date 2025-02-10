@@ -60,5 +60,54 @@
     "tiagodinis"
   ],
   "diffEditor.codeLens": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "todo-tree.general.tags": [
+    "!BUG",
+    "BUG",
+    "REVIEW",
+    "FIXME",
+    "TIDY",
+    "TODO",
+    "[ ]",
+    "[x]",
+    "!!!"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "icon": "bug",
+      "iconColour": "red"
+    },
+    "!BUG": {
+      "icon": "bug",
+      "iconColour": "red"
+    },
+    "BUG": {
+      "icon": "bug",
+      "iconColour": "orange"
+    },
+    "REVIEW": {
+      "icon": "search",
+      "iconColour": "mediumturquoise"
+    },
+    "TIDY": {
+      "icon": "tools",
+      "iconColour": "mediumpurple"
+    },
+    "TODO": {
+      "icon": "issue-draft",
+      "iconColour": "seagreen"
+    },
+    "[ ]": {
+      "icon": "issue-draft",
+      "iconColour": "seagreen"
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "iconColour": "seagreen"
+    },
+    "!!!": {
+      "icon": "stop",
+      "iconColour": "yellow"
+    }
+  }
 }
