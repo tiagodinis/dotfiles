@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0859517e154dd2ad",
+        "id": "6031f0b996bd1b5f",
         "type": "tabs",
         "children": [
           {
-            "id": "43e85b2aa65163b9",
+            "id": "594b81243fb070f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "👁️ 2024-10-31"
+              "title": "🔒 Lock In"
             }
           }
         ]
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "evernote",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "39b140f9e85dc4f9",
@@ -102,22 +104,12 @@
             }
           },
           {
-            "id": "763edf906d8b11d7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "c60a050264b9bd31",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 👁️ 2024-10-31"
+              "title": "Backlinks for 🔒 Lock In"
             }
           },
           {
@@ -136,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
+                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 👁️ 2024-10-31"
+              "title": "Outgoing links from 🔒 Lock In"
             }
           },
           {
@@ -159,89 +151,138 @@
             }
           },
           {
-            "id": "237aef2433e331f5",
+            "id": "da915c75d68aa563",
             "type": "leaf",
             "state": {
-              "type": "timeline",
+              "type": "calendar",
               "state": {},
-              "icon": "blocks",
-              "title": "Timeline"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "026befe6ae92f53b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8025ae8f42d1b61",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.16090901692708,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9828447824309677,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 🔒 Lock In"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-stille:Toggle Stille": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt/Decrypt In-place": false,
+      "obsidian-kanban:Create new board": false,
+      "janitor:Janitor: scan vault": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": true,
-      "meld-encrypt:New encrypted note": true,
-      "meld-encrypt:Convert to or from an Encrypted note": true,
-      "meld-encrypt:Encrypt/Decrypt": true,
-      "obsidian-stille:Toggle Stille": true,
-      "obsidian-kanban:Create new board": false,
-      "janitor:Janitor: scan vault": false,
-      "periodic-notes:Open today": false,
-      "obsidian-day-planner:Timeline": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "18c5afce0c7af812",
+  "active": "594b81243fb070f1",
   "lastOpenFiles": [
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-30.md",
-    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes/Lasagna recipe.md",
-    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes/Index.md",
-    "🏝️ Islands/🚹 Body/🥗 Nutrition/Recipes",
-    "Replies.md",
-    "10 🔭 Pursuits/Systematization/Resources.md",
-    "10 🔭 Pursuits/Systematization/Goals.md",
-    "🏝️ Islands/🚹 Body/🤸‍♂️ Mobility/🤸‍♂️ Routine.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-03.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-31.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-10-29.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-02.md",
-    "00 🧰 Workbench/30 📓 Logs/📓 2024-11-03.md",
-    "00 🧰 Workbench/30 📓 Logs/📓 2024-11-02.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-01.md",
-    "🏝️ Islands/📥 Inputs/🎮 Videogames.md",
-    "vidieogames.md",
-    "Mom gifts.md",
-    "🏝️ Islands/🧭 Priorities/🔒 Lock in.md",
-    "🏝️ Islands/🚹 Body/🤸‍♂️ Mobility/🤸‍♂️ Index.md",
-    "🏝️ Islands/🚹 Body/🧴 Skincare/🧴 Index.md",
-    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/🧴 Evening.md",
-    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/🧴 Morning.md",
-    "🏝️ Islands/📤 Outputs/🛍️ Wishlist.md",
-    "00 🧰 Workbench/20 👁️ Dashboards/👁️ 2024-11-04.md",
-    "🏝️ Islands/🚹 Body/💊 Supplementation/💊 Routine.md",
-    "00 🧰 Workbench/30 📓 Logs/📓 2024-10-29.md",
-    "00 🧰 Workbench/30 📓 Logs",
-    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine/Untitled",
-    "🏝️ Islands/🚹 Body/🧴 Skincare/Routine",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/0_hoes.jpg",
-    "Dating/Leads",
-    "Dating",
-    "00 🧰 Workbench/00 📥 Inbox/🪣 Buckets/Memes/Images/attentive_neandertal.jpg",
+    "♟️ Moves/20 🚀 Projects/📋 Talent Page.md",
+    "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+    "🗳️ Inbox/Federal Indirect Costs--Does a Flat Rate Make Sense?.md",
+    "Switzerland trip.md",
+    "🗳️ Inbox/Thread by @oldbooksguy 5.md",
+    "♟️ Moves/10 📥 Inputs/🎮 Videogames.md",
+    "🗳️ Inbox/LDtk.md",
+    "3D scene blending.md",
+    "🗳️ Inbox/(3) owl on X \"a horrifying video imagine feeling instinctively pulled to do a task. something that goes beyond your personal ambitions, your environment, or your job. something that comes from genetic instructions, placed down there over millions of.md",
+    "🗳️ Inbox/(4) Michael Nayna on X \"The \"Woke Right\" (WR) is gaining traction as a pejorative term for an emerging right-wing political movement. I'm not fond of it and will explain why in this thread. Let's start with what’s being called \"The Woke Right.\"  🧵 h.md",
+    "🗳️ Inbox/(5) Mr. Cattington on X \"@AutismCapital Men are obsessed with makingcollecting resources, and women are obsessed with ensuring everyone has the same amount of resources (even the retards who are lazy and don't deserve them). This paradigm works for a.md",
+    "🗳️ Inbox/(5) Naval on X \"@AutismCapital The state can substitute for what women want from men, but it can’t substitute for what men want from women.\"  X.md",
+    "🗳️ Inbox/(6) mdv59 on X \"@pmarca It’s ironic that, for a society to thrive, it needs a critical mass of 'get along, go along' types who generally disdain 'impolite' behavior, yet are totally dependent on rule breakers, unorthodox thinkers, and even obnoxious.md",
+    "🗳️ Inbox/(6) Pedro Stolf on X \"🚨SYNTHOPTIC WRITING🚨A guide to my final uni project, a linguistic experiment about how the way we write can rewire how we think httpst.coB4WeGMsigq\"  X.md",
+    "🗳️ Inbox/(7) Aella on X \"this is my top theory for why women are so sexually aroused by male aggression, violence, overpowering, rapeplay, etc. Women who weren't sexually and emotionally responsive to being kidnapped by violent raiders were less likely to sur.md",
+    "🗳️ Inbox/(7) Bryan Johnson dd on X \"Friends - I have the best biomarkers in the world. I am the healthiest person on the planet.I am fitter than most teenagers. My skin is smoother than that of women in their 20s who obsess over theirs. I have more stamina in.md",
+    "🗳️ Inbox/(7) Hassan on X \"I built a menu visualizer app that can take a restaurant menu pic and generate nice images for each dish!100% free and open source. Dropping in 24 hours. httpst.cofo6VSm9Gwd\"  X.md",
+    "🗳️ Inbox/(8) STYLIZED STATION on X \"Talent is OVERRATED. As an artist who built a 6-figure business without 'natural talent,' here's the uncomfortable truth about what drives real success—a thread 🧵 httpst.cojQwOmNxQWg\"  X.md",
+    "🗳️ Inbox/(7) Home  X.md",
+    "🗳️ Inbox/(7) Raman Chaudhary on X \"You fix a bigger thing and the smaller ones are automatically taken care of. Similarly, you find a bigger goal, most of your small, useless problems are either automatically resolved or they no longer feel like a problem.\".md",
+    "🗳️ Inbox/(3) Samantha Joy on X \"How should we help young children develop positive social skills?  The typical answer&gt;put children in groups&gt;enforce norms like sharing&gt;encourage collaborative playBut this approach *backfires*... often tragically. Mon.md",
+    "🗳️ Inbox/(3) Devon Govett on X \"Found a neat CSS trick to automatically swap between black or white text based on any arbitrary background color!With relative color syntax, you can use calc to adjust the text color depending if the background is above or belo.md",
+    "🗳️ Inbox/(1) Reads with Ravi on X \"25 books recommended by Marc Andreessen1) Zero To One by Peter Thiel httpst.coiA5T8y517x\"  X.md",
+    "🗳️ Inbox/(1) Austen Allred on X \"It’s impossible to describe just how different my six-year-old’s education experience is going to be from mine.Will update when we’re through fifth grade math.Couple months max. httpst.cor2YzH5y7Qx\"  X.md",
+    "🗳️ Inbox/“We confess our small faults only to convince people that we have no greater ones.”.md",
+    "🗳️ Inbox/5S (methodology) - Wikipedia.md",
+    "100 📎 Attachments/Capture.png",
+    "100 📎 Attachments/Capture (1).png",
+    "100 📎 Attachments/Capture (2).png",
+    "100 📎 Attachments/GParticles_leftovers.png",
+    "Evernote/Projects/Thesis",
+    "Evernote/Projects/Mizu",
+    "Evernote/Projects",
+    "Evernote/GameDev",
+    "Evernote/Kendo",
+    "Evernote/Project Ideas",
+    "Evernote/Learning",
+    "Evernote/Game ideas",
+    "Evernote/Logs",
+    "Evernote/Journeys",
+    "♟️ Moves/20 🚀 Projects/Starky/Starky.canvas",
+    "🚧 WIPs/Dashboard/Dashboard.canvas",
+    "🗳️ Inbox/🪣 Buckets/Memes/Images/🖼️ Attentive Neandertal.jpg",
     "00 🧰 Workbench/00 📥 Inbox/Untitled Diagram.svg",
-    "New test note.mdenc",
-    "Untitled.canvas",
-    "00 🧰 Workbench/00 📥 Inbox/Untitled 20240928 113330.mdenc",
-    "00 🧰 Workbench/00 📥 Inbox/Untitled 20240928 113320.mdenc",
-    "Conversations 💬",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/bb_i_won.gif",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/are_ya_winning_son.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/bb_no1.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/already_did.png",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/aot_riled_up_captain.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/1_vs_all.jpg",
-    "00 🧰 Workbench/10 🚧 WIPs/Memes/Media/99%_horny.jpg",
+    "🗄️ Archive/10 📎 Attachments/threejs_structure.svg",
+    "🚧 WIPs/Dashboard/Visuals/animation_cheatsheet_(iuri_monteiro).jpg",
+    "🚧 WIPs/Dashboard/Resources/Math/splines_and_curves_family_tree.png",
+    "Projects/Test 2/Test 2.canvas",
+    "Projects/Test/Test.canvas",
+    "projects/Test/Test.canvas",
+    "Project test/Other Project.canvas",
+    "🗄️ Archive/10 📎 Attachments/stop_the_count.webp",
+    "Canvas tests.canvas",
     "Lock in.canvas"
   ]
 }

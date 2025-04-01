@@ -72,6 +72,8 @@
     "[x]",
     "!!!"
   ],
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.autoImportFileExcludePatterns": [],
   "todo-tree.highlights.customHighlight": {
     "FIXME": {
       "icon": "bug",

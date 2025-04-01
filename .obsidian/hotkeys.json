@@ -388,5 +388,14 @@
       ],
       "key": " "
     }
+  ],
+  "simple-canvasearch:open-canvasearch-modal": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }

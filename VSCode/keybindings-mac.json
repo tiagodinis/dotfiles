@@ -172,11 +172,11 @@
   },
 
   {
-    "key": "ctrl+k shift+cmd+j",
+    "key": "ctrl+k ctrl+cmd+j",
     "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
-    "key": "ctrl+k shift+cmd+l",
+    "key": "ctrl+k ctrl+cmd+l",
     "command": "workbench.action.moveEditorToRightGroup"
   },
 
@@ -187,5 +187,41 @@
   {
     "key": "ctrl+m",
     "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "alt+l",
+    "command": "continue.focusContinueInputWithoutClear"
+  },
+  {
+    "key": "alt+i",
+    "command": "continue.quickEdit"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "todo-tree-view.focus"
   }
 ]

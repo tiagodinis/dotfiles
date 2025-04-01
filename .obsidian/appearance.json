@@ -6,5 +6,6 @@
   "accentColor": "",
   "theme": "obsidian",
   "nativeMenus": true,
-  "showViewHeader": false
+  "showViewHeader": true,
+  "showRibbon": false
 }

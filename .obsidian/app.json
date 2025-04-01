@@ -14,6 +14,7 @@
   "newFileFolderPath": "",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "100 📎 Attachments",
-  "showRibbon": false,
-  "showInlineTitle": true
+  "showInlineTitle": false,
+  "strictLineBreaks": false,
+  "readableLineLength": true
 }

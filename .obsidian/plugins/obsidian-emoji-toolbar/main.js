@@ -104300,3 +104300,5 @@ class SettingsTab extends obsidian.PluginSettingTab {
 }
 
 module.exports = EmojiPickerPlugin;
+
+/* nosourcemap */
