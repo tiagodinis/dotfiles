@@ -111,5 +111,6 @@
       "icon": "stop",
       "iconColour": "yellow"
     }
-  }
+  },
+  "gitlens.mode.active": "zen"
 }

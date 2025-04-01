@@ -8,7 +8,7 @@
       "id": "editor.rulers",
       "value": [
         {
-          "editor.rulers": [100, 107]
+          "editor.rulers": [80, 86]
         },
         {
           "editor.rulers": []
@@ -23,58 +23,57 @@
   },
 
   {
-    "key": "alt+i",
+    "key": "cmd+i",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "alt+k",
+    "key": "cmd+k",
     "command": "Edit.LineDown",
     "when": "editorTextFocus"
   },
-
   {
-    "key": "alt+i",
+    "key": "cmd+i",
     "command": "cursorUp",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+k",
+    "key": "cmd+k",
     "command": "cursorDown",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+j",
+    "key": "cmd+j",
     "command": "cursorWordStartLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+l",
+    "key": "cmd+l",
     "command": "cursorWordEndRight",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+h",
+    "key": "cmd+h",
     "command": "cursorHome",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+;",
+    "key": "cmd+;",
     "command": "cursorEnd",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+u",
+    "key": "cmd+u",
     "command": "cursorLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+o",
+    "key": "cmd+o",
     "command": "cursorRight",
     "when": "textInputFocus"
   },
   {
-    "key": "alt+p",
+    "key": "cmd+[",
     "command": "editorScroll",
     "args": {
       "to": "up",
@@ -84,7 +83,7 @@
     }
   },
   {
-    "key": "alt+n",
+    "key": "cmd+m",
     "command": "editorScroll",
     "args": {
       "to": "down",
@@ -94,73 +93,73 @@
     }
   },
   {
-    "key": "ctrl+alt+p",
+    "key": "ctrl+cmd+[",
     "command": "cursorPageUp",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+alt+n",
+    "key": "ctrl+cmd+m",
     "command": "cursorPageDown",
     "when": "textInputFocus"
   },
 
   {
-    "key": "shift+alt+i",
+    "key": "shift+cmd+i",
     "command": "cursorUpSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+k",
+    "key": "shift+cmd+k",
     "command": "cursorDownSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+j",
+    "key": "shift+cmd+j",
     "command": "cursorWordStartLeftSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+l",
+    "key": "shift+cmd+l",
     "command": "cursorWordEndRightSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+h",
+    "key": "shift+cmd+h",
     "command": "cursorHomeSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+;",
+    "key": "shift+cmd+;",
     "command": "cursorEndSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+u",
+    "key": "shift+cmd+u",
     "command": "cursorLeftSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+o",
+    "key": "shift+cmd+o",
     "command": "cursorRightSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+p",
+    "key": "shift+cmd+[",
     "command": "cursorPageUpSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+n",
+    "key": "shift+cmd+m",
     "command": "cursorPageDownSelect",
     "when": "textInputFocus"
   },
 
   {
-    "key": "ctrl+alt+j",
+    "key": "ctrl+cmd+j",
     "command": "workbench.action.focusLeftGroup"
   },
   {
-    "key": "ctrl+alt+l",
+    "key": "ctrl+cmd+l",
     "command": "workbench.action.focusRightGroup"
   },
   {
@@ -173,11 +172,11 @@
   },
 
   {
-    "key": "ctrl+k shift+alt+j",
+    "key": "ctrl+k ctrl+cmd+j",
     "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
-    "key": "ctrl+k shift+alt+l",
+    "key": "ctrl+k ctrl+cmd+l",
     "command": "workbench.action.moveEditorToRightGroup"
   },
 
@@ -188,5 +187,41 @@
   {
     "key": "ctrl+m",
     "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "alt+l",
+    "command": "continue.focusContinueInputWithoutClear"
+  },
+  {
+    "key": "alt+i",
+    "command": "continue.quickEdit"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "todo-tree-view.focus"
   }
 ]

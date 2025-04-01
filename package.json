@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "extensions": "code --list-extensions > ./VSCode/extensions.txt",
-    "install-extensions": "cat ./VSCode/extensions.txt | xargs -n 1 code --install-extension"
+    "save-vscode": "code --list-extensions > ./VSCode/extensions.txt && cp ~/Library/Application\\ Support/Code/User/{settings,keybindings}.json ./VSCode/",
+    "restore-vscode": "xargs -n 1 code --install-extension < ./VSCode/extensions.txt && cp ./VSCode/{settings,keybindings}.json ~/Library/Application\\ Support/Code/User/",
+    "save-obsidian": "rm -rf ./.obsidian && cp -r ~/MEGAsync/zettelkasten/.obsidian ./",
+    "restore-obsidian": "rm -rf ~/MEGAsync/zettelkasten/.obsidian && cp -r ./.obsidian ~/MEGAsync/zettelkasten/"
   }
 }
