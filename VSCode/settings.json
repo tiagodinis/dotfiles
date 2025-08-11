@@ -4,7 +4,6 @@
   "git.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "off",
-
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -52,12 +51,15 @@
     "pomodoro",
     "pomodoros",
     "rainglow",
+    "Renderable",
     "smaa",
     "ssaa",
     "stylelint",
     "svgs",
     "templating",
-    "tiagodinis"
+    "tiagodinis",
+    "tweakable",
+    "Tweakpane"
   ],
   "diffEditor.codeLens": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
