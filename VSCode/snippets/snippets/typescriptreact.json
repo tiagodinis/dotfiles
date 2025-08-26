@@ -1,0 +1,23 @@
+{
+	"Storybook Meta Boilerplate": {
+	"prefix": "sbmeta",
+	"body": [
+		"import { Meta, StoryObj } from '@storybook/react-vite';",
+		"",
+		"const meta: Meta<typeof $1> = {",
+		"  title: '$2',",
+		"  component: $1,",
+		"  tags: ['autodocs'],",
+		"  parameters: { layout: 'fullscreen' },",
+		"  args: {},",
+		"  argTypes: {},",
+		"};",
+		"export default meta;",
+		"type Story = StoryObj<typeof meta>;",
+		"",
+		"export const Playground: Story = {};",
+		""
+	],
+	"description": "Inserts Storybook meta boilerplate with placeholders for component and title"
+	}
+}

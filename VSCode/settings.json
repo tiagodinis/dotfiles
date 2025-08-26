@@ -114,5 +114,10 @@
       "iconColour": "yellow"
     }
   },
-  "gitlens.mode.active": "zen"
+  "gitlens.mode.active": "zen",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true
 }
