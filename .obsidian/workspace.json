@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6031f0b996bd1b5f",
+        "id": "8936db4e26a7f4b7",
         "type": "tabs",
         "children": [
           {
-            "id": "594b81243fb070f1",
+            "id": "16ba0bca5d9aa631",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+                "file": "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "🔒 Lock In"
+              "title": "📋 Mini 3d editor"
             }
           }
         ]
@@ -54,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "evernote",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "39b140f9e85dc4f9",
@@ -97,7 +98,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -109,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+                "file": "📅 2026 · W02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🔒 Lock In"
+              "title": "Backlinks for 📅 2026 · W02"
             }
           },
           {
@@ -128,12 +131,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 🔒 Lock In"
+              "title": "Outgoing links"
             }
           },
           {
@@ -159,9 +161,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "243fc5c08ce26dee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "026befe6ae92f53b",
@@ -173,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+                "file": "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,87 +217,91 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 🔒 Lock In"
+              "title": "Graph of 📋 Mini 3d editor"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "obsidian-stille:Toggle Stille": false,
-      "meld-encrypt:New encrypted note": false,
-      "meld-encrypt:Convert to or from an Encrypted note": false,
-      "meld-encrypt:Encrypt/Decrypt In-place": false,
-      "obsidian-kanban:Create new board": false,
-      "janitor:Janitor: scan vault": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-stille:Toggle Stille": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "obsidian-kanban:Create new board": false,
+      "janitor:Janitor: scan vault": false,
+      "meld-encrypt:Lock and Close all open encrypted notes": false,
+      "meld-encrypt:Encrypt Selection": false,
+      "meld-encrypt:Decrypt at Cursor": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "594b81243fb070f1",
+  "active": "16ba0bca5d9aa631",
   "lastOpenFiles": [
-    "♟️ Moves/20 🚀 Projects/📋 Talent Page.md",
-    "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
-    "🗳️ Inbox/Federal Indirect Costs--Does a Flat Rate Make Sense?.md",
-    "Switzerland trip.md",
-    "🗳️ Inbox/Thread by @oldbooksguy 5.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-14 · Wed · W03.md",
+    "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
+    "♟️ Moves/00 🧭 Priorities/🍽️ On my plate.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-15 · Thu · W03.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-20 · Tue · W04.md",
+    "Clippings/agent-skillsskillsreact-best-practicesreferencesrules at react-best-practices · vercel-labsagent-skills.md",
+    "Money/Lidl groceries.md",
+    "Money/Toys R Us gift return adjustment.md",
+    "Money/Temu utilities.md",
+    "Money/Reversible Jacket.md",
+    "Money/Plane ticket (Porto - Bucharest).md",
+    "Money/Plane ticket (Bucharest - Istanbul).md",
+    "Money/Lusíadas (eye doctor).md",
+    "Money/Lidl Snacks.md",
+    "Money/Expenses.base",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-13 · Tue · W03.md",
+    "Clippings/Design Systems for Software Engineers.md",
+    "AI notes/Coding use cases for each model.md",
+    "Supplementation amounts.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-12 · Mon · W03.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-16 · Fri · W03.md",
     "♟️ Moves/10 📥 Inputs/🎮 Videogames.md",
-    "🗳️ Inbox/LDtk.md",
-    "3D scene blending.md",
-    "🗳️ Inbox/(3) owl on X \"a horrifying video imagine feeling instinctively pulled to do a task. something that goes beyond your personal ambitions, your environment, or your job. something that comes from genetic instructions, placed down there over millions of.md",
-    "🗳️ Inbox/(4) Michael Nayna on X \"The \"Woke Right\" (WR) is gaining traction as a pejorative term for an emerging right-wing political movement. I'm not fond of it and will explain why in this thread. Let's start with what’s being called \"The Woke Right.\"  🧵 h.md",
-    "🗳️ Inbox/(5) Mr. Cattington on X \"@AutismCapital Men are obsessed with makingcollecting resources, and women are obsessed with ensuring everyone has the same amount of resources (even the retards who are lazy and don't deserve them). This paradigm works for a.md",
-    "🗳️ Inbox/(5) Naval on X \"@AutismCapital The state can substitute for what women want from men, but it can’t substitute for what men want from women.\"  X.md",
-    "🗳️ Inbox/(6) mdv59 on X \"@pmarca It’s ironic that, for a society to thrive, it needs a critical mass of 'get along, go along' types who generally disdain 'impolite' behavior, yet are totally dependent on rule breakers, unorthodox thinkers, and even obnoxious.md",
-    "🗳️ Inbox/(6) Pedro Stolf on X \"🚨SYNTHOPTIC WRITING🚨A guide to my final uni project, a linguistic experiment about how the way we write can rewire how we think httpst.coB4WeGMsigq\"  X.md",
-    "🗳️ Inbox/(7) Aella on X \"this is my top theory for why women are so sexually aroused by male aggression, violence, overpowering, rapeplay, etc. Women who weren't sexually and emotionally responsive to being kidnapped by violent raiders were less likely to sur.md",
-    "🗳️ Inbox/(7) Bryan Johnson dd on X \"Friends - I have the best biomarkers in the world. I am the healthiest person on the planet.I am fitter than most teenagers. My skin is smoother than that of women in their 20s who obsess over theirs. I have more stamina in.md",
-    "🗳️ Inbox/(7) Hassan on X \"I built a menu visualizer app that can take a restaurant menu pic and generate nice images for each dish!100% free and open source. Dropping in 24 hours. httpst.cofo6VSm9Gwd\"  X.md",
-    "🗳️ Inbox/(8) STYLIZED STATION on X \"Talent is OVERRATED. As an artist who built a 6-figure business without 'natural talent,' here's the uncomfortable truth about what drives real success—a thread 🧵 httpst.cojQwOmNxQWg\"  X.md",
-    "🗳️ Inbox/(7) Home  X.md",
-    "🗳️ Inbox/(7) Raman Chaudhary on X \"You fix a bigger thing and the smaller ones are automatically taken care of. Similarly, you find a bigger goal, most of your small, useless problems are either automatically resolved or they no longer feel like a problem.\".md",
-    "🗳️ Inbox/(3) Samantha Joy on X \"How should we help young children develop positive social skills?  The typical answer&gt;put children in groups&gt;enforce norms like sharing&gt;encourage collaborative playBut this approach *backfires*... often tragically. Mon.md",
-    "🗳️ Inbox/(3) Devon Govett on X \"Found a neat CSS trick to automatically swap between black or white text based on any arbitrary background color!With relative color syntax, you can use calc to adjust the text color depending if the background is above or belo.md",
-    "🗳️ Inbox/(1) Reads with Ravi on X \"25 books recommended by Marc Andreessen1) Zero To One by Peter Thiel httpst.coiA5T8y517x\"  X.md",
-    "🗳️ Inbox/(1) Austen Allred on X \"It’s impossible to describe just how different my six-year-old’s education experience is going to be from mine.Will update when we’re through fifth grade math.Couple months max. httpst.cor2YzH5y7Qx\"  X.md",
-    "🗳️ Inbox/“We confess our small faults only to convince people that we have no greater ones.”.md",
-    "🗳️ Inbox/5S (methodology) - Wikipedia.md",
-    "100 📎 Attachments/Capture.png",
-    "100 📎 Attachments/Capture (1).png",
-    "100 📎 Attachments/Capture (2).png",
-    "100 📎 Attachments/GParticles_leftovers.png",
-    "Evernote/Projects/Thesis",
-    "Evernote/Projects/Mizu",
-    "Evernote/Projects",
-    "Evernote/GameDev",
-    "Evernote/Kendo",
-    "Evernote/Project Ideas",
-    "Evernote/Learning",
-    "Evernote/Game ideas",
-    "Evernote/Logs",
-    "Evernote/Journeys",
+    "AI notes",
+    "⚜️ Domains/👥 People/🗃️ Outputs/🎉 Birthdays.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-11 · Sun · W02.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-10 · Sat · W02.md",
+    "Clippings/The Final Offshoring.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-24 · Sat · W04.md",
+    "100 📎 Attachments/std_tests.jpeg",
+    "100 📎 Attachments/fertility_tests.pdf",
+    "⚜️ Domains/🌱 Seeding/🗃️ Outputs/Informal Donation Workflow/Shareables",
+    "⚜️ Domains/🌱 Seeding/WIP",
+    "🗄️ Archive/00 🔳 Dashboards/Months",
+    "🗄️ Archive/00 🔳 Dashboards/Days",
+    "🗄️ Archive/00 🔳 Dashboards/Years",
+    "Money",
+    "🚧 WIPs/Memes/Media/wish_that_was_me.jpg",
+    "Untitled.base",
+    "100 📎 Attachments/invisible-hand.png",
+    "100 📎 Attachments/Inferior goods clarification.png",
+    "100 📎 Attachments/Normal and inferior goods.png",
+    "100 📎 Attachments/Changes in income, population, or preferences.png",
+    "100 📎 Attachments/Change in expected future prices and demand.png",
+    "100 📎 Attachments/Price of related products and demand.png",
+    "100 📎 Attachments/Substitution and income effects and the law of demand 1.png",
+    "100 📎 Attachments/Substitution and income effects and the law of demand.png",
+    "♟️ Moves/Tracks.canvas",
+    "wee.canvas",
     "♟️ Moves/20 🚀 Projects/Starky/Starky.canvas",
     "🚧 WIPs/Dashboard/Dashboard.canvas",
-    "🗳️ Inbox/🪣 Buckets/Memes/Images/🖼️ Attentive Neandertal.jpg",
-    "00 🧰 Workbench/00 📥 Inbox/Untitled Diagram.svg",
-    "🗄️ Archive/10 📎 Attachments/threejs_structure.svg",
-    "🚧 WIPs/Dashboard/Visuals/animation_cheatsheet_(iuri_monteiro).jpg",
-    "🚧 WIPs/Dashboard/Resources/Math/splines_and_curves_family_tree.png",
     "Projects/Test 2/Test 2.canvas",
     "Projects/Test/Test.canvas",
     "projects/Test/Test.canvas",
     "Project test/Other Project.canvas",
-    "🗄️ Archive/10 📎 Attachments/stop_the_count.webp",
     "Canvas tests.canvas",
     "Lock in.canvas"
   ]

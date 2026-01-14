@@ -84,7 +84,7 @@
     },
     "trailing-spaces": {
       "enabled": true,
-      "twp-space-line-break": false
+      "two-space-line-break": false
     },
     "add-blank-line-after-yaml": {
       "enabled": false

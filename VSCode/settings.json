@@ -24,7 +24,6 @@
   "window.commandCenter": false,
   "workbench.colorTheme": "Earthsong (rainglow)",
   "zenMode.centerLayout": true,
-
   "cSpell.userWords": [
     "Aberrated",
     "antiquewhite",
@@ -119,5 +118,10 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "editor.suggestOnTriggerCharacters": true
+  "editor.suggestOnTriggerCharacters": true,
+  "terminal.integrated.fontFamily": "MonacoNF",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "scminput": false
+  }
 }

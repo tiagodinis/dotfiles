@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "10 🔭 Pursuits/Systematization/🗃️ Outputs/🔄 Templates",
+  "templates_folder": "⚜️ Domains/🏭 Systematization/🗃️ Outputs/🔄 Templates/Organization",
   "templates_pairs": [
     [
       "",
@@ -34,6 +34,7 @@
   "startup_templates": [
     ""
   ],
+  "intellisense_render": 1,
   "enable_ribbon_icon": true,
   "template_folder": "90 🔁 Templates",
   "locale": "en"

@@ -3,6 +3,9 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "date"
+    "date": "date",
+    "recurring": "checkbox",
+    "test": "multitext",
+    "category": "multitext"
   }
 }
