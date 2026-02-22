@@ -1,9 +1,9 @@
-alias.fixup !git add -A && git commit --amend --no-edit
 alias.alias !git config --get-regexp "^alias\\." | sed -e "s/^alias\\.//" -e "s/ / = /" | sort
-alias.st status
-alias.co checkout
-alias.br branch -v
-alias.cm commit -m
-alias.rb !sh -c "git rebase -i HEAD~\$((\$1 + 1))" -
 alias.amend commit --amend --verbose
+alias.br branch -v
 alias.cleanup !git branch -vvv | grep ": gone]" | grep -v "\*" | awk '{ print "git branch -D", $1 }' | bash
+alias.cm !git add -A && git commit -m
+alias.co checkout
+alias.fixup !git add -A && git commit --amend --no-edit
+alias.rb !sh -c "git rebase -i HEAD~\$((\$1 + 1))" -
+alias.st status

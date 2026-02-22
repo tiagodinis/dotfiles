@@ -5,6 +5,10 @@
     "save-obsidian": "rm -rf ./.obsidian && cp -r ~/MEGAsync/zettelkasten/.obsidian ./",
     "restore-obsidian": "rm -rf ~/MEGAsync/zettelkasten/.obsidian && cp -r ./.obsidian ~/MEGAsync/zettelkasten/",
     "save-git": "git config --global --get-regexp alias > ./git/aliases.txt",
-    "restore-git": "while IFS= read -r line; do name=$(echo \"$line\" | cut -d' ' -f1 | sed 's/alias.//'); value=$(echo \"$line\" | cut -d' ' -f2-); git config --global \"$name\" \"$value\"; done < ./git/aliases.txt"
+    "restore-git": "while IFS= read -r line; do name=$(echo \"$line\" | cut -d' ' -f1); value=$(echo \"$line\" | cut -d' ' -f2-); git config --global \"$name\" \"$value\"; done < ./git/aliases.txt",
+    "save-claude": "cp ~/.claude/CLAUDE.md ./claude/ && cp ~/.claude/README.md ./claude/ && cp ~/.claude/commands/*.md ./claude/commands/",
+    "restore-claude": "cp ./claude/CLAUDE.md ~/.claude/ && cp ./claude/README.md ~/.claude/ && cp ./claude/commands/*.md ~/.claude/commands/",
+    "restore-all": "npm run restore-git && npm run restore-vscode && npm run restore-obsidian && npm run restore-claude",
+    "save-all": "npm run save-git && npm run save-vscode && npm run save-obsidian && npm run save-claude"
   }
 }
