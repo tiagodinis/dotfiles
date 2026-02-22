@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8936db4e26a7f4b7",
+        "id": "60eb7b9cfab04845",
         "type": "tabs",
         "children": [
           {
-            "id": "16ba0bca5d9aa631",
+            "id": "344c6e211ecdea47",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
+                "file": "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-22 · Sun · W08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "📋 Mini 3d editor"
+              "title": "👁️ 2026-02-22 · Sun · W08"
             }
           }
         ]
@@ -56,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "insurance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "39b140f9e85dc4f9",
@@ -189,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
+                "file": "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-22 · Sun · W08.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,19 +211,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9828447824309677,
+                  "scale": 0.2049267888433522,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 📋 Mini 3d editor"
+              "title": "Graph of 👁️ 2026-02-22 · Sun · W08"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,46 +246,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "16ba0bca5d9aa631",
+  "active": "344c6e211ecdea47",
   "lastOpenFiles": [
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-14 · Wed · W03.md",
-    "♟️ Moves/20 🚀 Projects/📋 Mini 3d editor.md",
-    "♟️ Moves/00 🧭 Priorities/🍽️ On my plate.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-15 · Thu · W03.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-20 · Tue · W04.md",
-    "Clippings/agent-skillsskillsreact-best-practicesreferencesrules at react-best-practices · vercel-labsagent-skills.md",
-    "Money/Lidl groceries.md",
-    "Money/Toys R Us gift return adjustment.md",
-    "Money/Temu utilities.md",
-    "Money/Reversible Jacket.md",
-    "Money/Plane ticket (Porto - Bucharest).md",
-    "Money/Plane ticket (Bucharest - Istanbul).md",
-    "Money/Lusíadas (eye doctor).md",
-    "Money/Lidl Snacks.md",
-    "Money/Expenses.base",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-13 · Tue · W03.md",
-    "Clippings/Design Systems for Software Engineers.md",
-    "AI notes/Coding use cases for each model.md",
-    "Supplementation amounts.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-12 · Mon · W03.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-16 · Fri · W03.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-21 · Sat · W08.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-22 · Sun · W08.md",
+    "⚜️ Domains/👥 People/🗃️ Outputs/PREVIOUS VERSION people/Charm/Filipino dictionary.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-25 · Wed · W09.md",
     "♟️ Moves/10 📥 Inputs/🎮 Videogames.md",
+    "⚜️ Domains/🚹 Body/🗃️ Outputs/🥗 Nutrition/Recipes/🧀🍝 Mac & Cheese.md",
+    "Figma.md",
+    "♟️ Moves/00 🧭 Priorities/🍽️ On my plate.md",
+    "♟️ Moves/20 🚀 Projects/📋 Enterprise Widgets.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-20 · Fri · W08.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-19 · Thu · W08.md",
+    "Emmet Carroll.md",
+    "♟️ Moves/00 🧭 Priorities/🔒 Lock In.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-17 · Tue · W08.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-18 · Wed · W08.md",
+    "Clippings/Intro to SVG Filters.md",
+    "digital-design-styles-2025-2026.md",
+    "Queued projects/Web/TECHNICAL_PLAN.md",
+    "Queued projects/Web/PRODUCT_PLAN.md",
+    "Clippings/How I use Obsidian.md",
+    "Queued projects/Web/Small/SoundBoard/📋 OLD_Soundboard.md",
+    "Queued projects/Web/Small/SoundBoard",
+    "Queued projects/Web/Small/Untitled.md",
+    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-02-16 · Mon · W08.md",
+    "Meme Sorting Project.md",
+    "MEME_SORTING_GUIDE.md",
+    "⚜️ Domains/👥 People/🗃️ Outputs/💸 Debts.md",
+    "Money/Expenses.base",
+    "copilot-custom-prompts",
+    "copilot",
+    "⚜️ Domains/🏭 Systematization/🗃️ Outputs/⚙️ Scripts/myScript.js",
+    "⚜️ Domains/🏭 Systematization/🗃️ Outputs/⚙️ Scripts",
+    "🚧 WIPs/Memes/Media/game_mansplaining.jpg",
     "AI notes",
-    "⚜️ Domains/👥 People/🗃️ Outputs/🎉 Birthdays.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-11 · Sun · W02.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-10 · Sat · W02.md",
-    "Clippings/The Final Offshoring.md",
-    "🗄️ Archive/00 🔳 Dashboards/Days/👁️ 2026-01-24 · Sat · W04.md",
     "100 📎 Attachments/std_tests.jpeg",
     "100 📎 Attachments/fertility_tests.pdf",
     "⚜️ Domains/🌱 Seeding/🗃️ Outputs/Informal Donation Workflow/Shareables",
     "⚜️ Domains/🌱 Seeding/WIP",
-    "🗄️ Archive/00 🔳 Dashboards/Months",
-    "🗄️ Archive/00 🔳 Dashboards/Days",
-    "🗄️ Archive/00 🔳 Dashboards/Years",
-    "Money",
     "🚧 WIPs/Memes/Media/wish_that_was_me.jpg",
-    "Untitled.base",
     "100 📎 Attachments/invisible-hand.png",
     "100 📎 Attachments/Inferior goods clarification.png",
     "100 📎 Attachments/Normal and inferior goods.png",
@@ -293,7 +294,6 @@
     "100 📎 Attachments/Change in expected future prices and demand.png",
     "100 📎 Attachments/Price of related products and demand.png",
     "100 📎 Attachments/Substitution and income effects and the law of demand 1.png",
-    "100 📎 Attachments/Substitution and income effects and the law of demand.png",
     "♟️ Moves/Tracks.canvas",
     "wee.canvas",
     "♟️ Moves/20 🚀 Projects/Starky/Starky.canvas",

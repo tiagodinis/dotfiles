@@ -169,6 +169,10 @@
     "args": { "mode": "agent" }
   },
   {
+    "key": "ctrl+m ctrl+.",
+    "command": "agentSessions.toggleAgentSessionsSidebar"
+  },
+  {
     "key": "shift+cmd+b",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
@@ -184,7 +188,7 @@
       "id": "editor.rulers",
       "value": [
         {
-          "editor.rulers": [80, 86]
+          "editor.rulers": [90, 96]
         },
         {
           "editor.rulers": []

@@ -8,7 +8,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit",
-    "source.fixAll.tslint": "explicit"
+    "source.fixAll.tslint": "explicit",
   },
   "editor.codeLens": false,
   "editor.cursorBlinking": "expand",
@@ -22,7 +22,7 @@
   "editor.wordWrap": "on",
   "stylelint.validate": ["css", "less", "postcss", "javascript"],
   "window.commandCenter": false,
-  "workbench.colorTheme": "Earthsong (rainglow)",
+  "workbench.colorTheme": "Userscape (rainglow)",
   "zenMode.centerLayout": true,
   "cSpell.userWords": [
     "Aberrated",
@@ -58,7 +58,7 @@
     "templating",
     "tiagodinis",
     "tweakable",
-    "Tweakpane"
+    "Tweakpane",
   ],
   "diffEditor.codeLens": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -71,57 +71,64 @@
     "TODO",
     "[ ]",
     "[x]",
-    "!!!"
+    "!!!",
   ],
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.autoImportFileExcludePatterns": [],
   "todo-tree.highlights.customHighlight": {
     "FIXME": {
       "icon": "bug",
-      "iconColour": "red"
+      "iconColour": "red",
     },
     "!BUG": {
       "icon": "bug",
-      "iconColour": "red"
+      "iconColour": "red",
     },
     "BUG": {
       "icon": "bug",
-      "iconColour": "orange"
+      "iconColour": "orange",
     },
     "REVIEW": {
       "icon": "search",
-      "iconColour": "mediumturquoise"
+      "iconColour": "mediumturquoise",
     },
     "TIDY": {
       "icon": "tools",
-      "iconColour": "mediumpurple"
+      "iconColour": "mediumpurple",
     },
     "TODO": {
       "icon": "issue-draft",
-      "iconColour": "seagreen"
+      "iconColour": "seagreen",
     },
     "[ ]": {
       "icon": "issue-draft",
-      "iconColour": "seagreen"
+      "iconColour": "seagreen",
     },
     "[x]": {
       "icon": "issue-closed",
-      "iconColour": "seagreen"
+      "iconColour": "seagreen",
     },
     "!!!": {
       "icon": "stop",
-      "iconColour": "yellow"
-    }
+      "iconColour": "yellow",
+    },
   },
   "gitlens.mode.active": "zen",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.quickSuggestions": {
-    "strings": true
+    "strings": true,
   },
   "editor.suggestOnTriggerCharacters": true,
   "terminal.integrated.fontFamily": "MonacoNF",
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
-    "scminput": false
-  }
+    "scminput": false,
+  },
+  "chat.fontSize": 18,
+  "chat.editor.fontSize": 14,
+  "editor.rulers": [],
+  "editor.accessibilitySupport": "off",
+  "chat.viewSessions.orientation": "stacked",
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "default",
 }
