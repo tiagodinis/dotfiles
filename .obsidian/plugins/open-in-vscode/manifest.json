@@ -1,0 +1,10 @@
+{
+  "id": "open-in-vscode",
+  "name": "Open in VS Code",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Open the vault (and optionally the active file) in VS Code.",
+  "author": "tiagoddinis",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

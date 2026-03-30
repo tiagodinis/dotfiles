@@ -406,5 +406,14 @@
       ],
       "key": "H"
     }
+  ],
+  "open-in-vscode:open-in-vscode": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

@@ -11,7 +11,6 @@
   "templater-obsidian",
   "tag-wrangler",
   "obsidian-style-settings",
-  "obsidian-stille",
   "obsidian-sort-and-permute-lines",
   "obsidian-smarter-md-hotkeys",
   "simple-canvasearch",
@@ -24,5 +23,7 @@
   "obsidian-linter",
   "obsidian-kanban",
   "mrj-jump-to-link",
-  "janitor"
+  "janitor",
+  "obsidian-git",
+  "open-in-vscode"
 ]
