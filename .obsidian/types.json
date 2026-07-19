@@ -4,8 +4,17 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "date": "date",
-    "recurring": "checkbox",
-    "test": "multitext",
-    "category": "multitext"
+    "recurring": "text",
+    "category": "multitext",
+    "domain": "text",
+    "deadline": "date",
+    "achieved": "date",
+    "domains": "multitext",
+    "type": "multitext",
+    "status": "text",
+    "priority": "number",
+    "context": "text",
+    "effort": "text",
+    "importance": "text"
   }
 }

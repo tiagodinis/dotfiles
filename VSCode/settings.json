@@ -6,7 +6,7 @@
   "telemetry.telemetryLevel": "off",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+    "source.fixAll.eslint": "always",
     "source.fixAll.stylelint": "explicit",
     "source.fixAll.tslint": "explicit",
   },
@@ -22,7 +22,7 @@
   "editor.wordWrap": "on",
   "stylelint.validate": ["css", "less", "postcss", "javascript"],
   "window.commandCenter": false,
-  "workbench.colorTheme": "Userscape (rainglow)",
+  "workbench.colorTheme": "Yitzchok (rainglow)",
   "zenMode.centerLayout": true,
   "cSpell.userWords": [
     "Aberrated",
@@ -128,7 +128,12 @@
   "chat.editor.fontSize": 14,
   "editor.rulers": [],
   "editor.accessibilitySupport": "off",
-  "chat.viewSessions.orientation": "stacked",
   "claudeCode.preferredLocation": "panel",
   "claudeCode.selectedModel": "default",
+  "workbench.startupEditor": "none",
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "debug.breakpointsView.presentation": "tree"
 }

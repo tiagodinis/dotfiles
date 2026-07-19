@@ -1,7 +1,6 @@
 [
   "advanced-canvas",
   "calendar",
-  "obsidian-editor-shortcuts",
   "cmdr",
   "obsidian-hider",
   "obsidian-emoji-toolbar",
@@ -22,8 +21,12 @@
   "meld-encrypt",
   "obsidian-linter",
   "obsidian-kanban",
-  "mrj-jump-to-link",
   "janitor",
   "obsidian-git",
-  "open-in-vscode"
+  "open-in-vscode",
+  "file-order",
+  "dataview",
+  "mermaid-view",
+  "selection-shortcuts",
+  "expense-auto-rename"
 ]

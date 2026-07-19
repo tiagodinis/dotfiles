@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "⚜️ Domains/🏭 Systematization/🗃️ Outputs/🔄 Templates",
+  "templates_folder": "02 ⚜️ Domains/01 🏭 Systematization/🗃️ Outputs/🔄 Templates",
   "templates_pairs": [
     [
       "",
@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "02 ⚜️ Domains/01 🏭 Systematization/🗃️ Outputs/🔄 Templates/Scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -27,7 +27,7 @@
     }
   ],
   "syntax_highlighting": true,
-  "syntax_highlighting_mobile": false,
+  "syntax_highlighting_mobile": true,
   "enabled_templates_hotkeys": [
     ""
   ],
@@ -35,6 +35,11 @@
     ""
   ],
   "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ],
   "enable_ribbon_icon": true,
   "template_folder": "90 🔁 Templates",
   "locale": "en"

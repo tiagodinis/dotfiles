@@ -7,14 +7,15 @@
     "en-US",
     "pt-PT"
   ],
-  "promptDelete": true,
+  "promptDelete": false,
   "legacyEditor": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "100 📎 Attachments",
+  "attachmentFolderPath": "04 🗄️ Archive/02 📎 Attachments",
   "showInlineTitle": false,
   "strictLineBreaks": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showLineNumber": false
 }

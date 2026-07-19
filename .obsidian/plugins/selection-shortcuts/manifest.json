@@ -1,0 +1,10 @@
+{
+  "id": "selection-shortcuts",
+  "name": "Editor Navigation Shortcuts",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Custom cmd+key navigation and shift+cmd+key selection shortcuts for the editor.",
+  "author": "tiago.dinis",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

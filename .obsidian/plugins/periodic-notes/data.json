@@ -4,14 +4,14 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "👁️ YYYY-MM-DD · ddd · [W]ww",
-    "template": "⚜️ Domains/🏭 Systematization/🗃️ Outputs/🔄 Templates/Organization/Calendar/t_day.md",
-    "folder": "🗄️ Archive/00 🔳 Dashboards/Days",
+    "template": "02 ⚜️ Domains/01 🏭 Systematization/🗃️ Outputs/🔄 Templates/Calendar/🔅 Day (early gym).md",
+    "folder": "04 🗄️ Archive/01 🔳 Dashboards",
     "enabled": true
   },
   "weekly": {
     "format": "👁️ gggg · [W]ww",
-    "template": "⚜️ Domains/🏭 Systematization/🗃️ Outputs/🔄 Templates/Organization/Calendar/t_week.md",
-    "folder": "🗄️ Archive/00 🔳 Dashboards/Days",
+    "template": "02 ⚜️ Domains/01 🏭 Systematization/🗃️ Outputs/🔄 Templates/Calendar/🔆 Week.md",
+    "folder": "04 🗄️ Archive/01 🔳 Dashboards",
     "enabled": true
   },
   "monthly": {
@@ -28,8 +28,8 @@
   },
   "yearly": {
     "format": "",
-    "template": "",
-    "folder": "🗄️ Archive/00 🔳 Dashboards/Years",
+    "template": "02 ⚜️ Domains/01 🏭 Systematization/🗃️ Outputs/🔄 Templates/Calendar/🌞 Year.md",
+    "folder": "04 🗄️ Archive/01 🔳 Dashboards",
     "enabled": true
   }
 }

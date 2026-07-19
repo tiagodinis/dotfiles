@@ -183,7 +183,14 @@
     }
   ],
   "editor:toggle-italics": [],
-  "workspace:split-vertical": [],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
+  ],
   "workspace:split-horizontal": [],
   "obsidian-emoji-toolbar:emoji-picker:open-picker": [
     {
@@ -203,15 +210,6 @@
     }
   ],
   "editor:open-link-in-new-leaf": [],
-  "editor:insert-link": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:toggle-checklist-status": [
     {
       "modifiers": [
@@ -287,15 +285,6 @@
     {
       "modifiers": [
         "Mod"
-      ],
-      "key": "K"
-    }
-  ],
-  "obsidian-kanban:toggle-kanban-view": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
       ],
       "key": "K"
     }
@@ -398,15 +387,6 @@
       "key": "F"
     }
   ],
-  "editor:toggle-highlight": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "open-in-vscode:open-in-vscode": [
     {
       "modifiers": [
@@ -414,6 +394,41 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
     }
   ]
 }

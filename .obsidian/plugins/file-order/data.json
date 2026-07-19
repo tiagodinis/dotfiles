@@ -1,0 +1,7 @@
+{
+  "delimiter": " ",
+  "prefixMinLength": 2,
+  "startingIndex": 1,
+  "ignorePattern": "",
+  "ignoreFolderFile": false
+}
