@@ -17,3 +17,4 @@ rebornix.toggle
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint
+vizards.deepseek-v4-for-copilot
