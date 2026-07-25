@@ -1,0 +1,24 @@
+[user]
+    name = Tiago Dinis
+    email = tiagoddinis@gmail.com
+
+[core]
+    editor = code --wait
+
+[format]
+    pretty = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+
+[log]
+    graph = true
+
+[alias]
+    fixup = !git add -A && git commit --amend --no-edit
+    alias = !git config --get-regexp "^alias\\." | sed -e "s/^alias\\.//" -e "s/ / = /" | sort
+    st = status
+    co = checkout
+    br = branch -v
+    cm = !git add -A && git commit -m
+    rb = "!sh -c 'git rebase -i HEAD~$(( $1 + 1 ))' -"
+    amend = commit --amend --verbose
+    cleanup = "!git branch -vvv | grep ': gone]' | grep -v '\\*' | awk '{ print \"git branch -D\", $1 }' | bash"
+    ls = log --stat
