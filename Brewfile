@@ -19,6 +19,7 @@ cask "whatsapp"
 
 # Node Packages
 npm "corepack"
+npm "@biomejs/biome"
 
 # VS Code Extensions
 vscode "anthropic.claude-code"
