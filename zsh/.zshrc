@@ -9,6 +9,11 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 export EDITOR="code --wait"
 export VISUAL="code --wait"
 
+# Android / Java (Capacitor)
+export JAVA_HOME="/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
+
 # 3. NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

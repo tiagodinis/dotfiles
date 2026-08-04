@@ -1,0 +1,17 @@
+{
+  "_comment": [
+    "Desired Handy settings, applied by `scripts/omarchy.sh restore` (configure_handy).",
+    "Keys starting with _ are ignored. Values are written while Handy is stopped:",
+    "its tauri store caches settings in memory and would clobber a live edit.",
+    "",
+    "paste_method=ctrl_v (not the Linux default 'direct'): 'direct' makes Handy",
+    "  type every character with wtype, and VS Code's editor drops keystrokes doing",
+    "  that (Chrome/Obsidian were fine). Clipboard + one Ctrl+V is byte-perfect.",
+    "  See the Handy notes in README.md.",
+    "overlay_style=minimal: Linux defaults to 'none' (no indicator). 'minimal'",
+    "  keeps the recording pill; hyprland.lua pins it with no_focus so it cannot",
+    "  steal focus and swallow the pasted transcript."
+  ],
+  "paste_method": "ctrl_v",
+  "overlay_style": "minimal"
+}

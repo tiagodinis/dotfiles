@@ -15,6 +15,7 @@
     "priority": "number",
     "context": "text",
     "effort": "text",
-    "importance": "text"
+    "importance": "text",
+    "dead": "date"
   }
 }

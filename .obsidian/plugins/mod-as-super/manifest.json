@@ -1,0 +1,10 @@
+{
+  "id": "mod-as-super",
+  "name": "Mod as Super (Linux)",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "On Linux, let the ⌘-position (Super) key trigger 'Mod' hotkeys — Obsidian maps Mod to Ctrl on Linux, so this executes the Ctrl+... command when you press Super+key instead.",
+  "author": "tiagoddinis",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

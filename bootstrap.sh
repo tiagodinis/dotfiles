@@ -1,58 +1,41 @@
 #!/usr/bin/env bash
-
-set -e
-
-echo "🚀 Starting macOS Bootstrap..."
-
-# 1. Install Homebrew if not installed
-if ! command -v brew &> /dev/null; then
-    echo "🍺 Installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
-
-# 2. Install GitHub CLI if not present, then clone dotfiles
-if ! command -v gh &> /dev/null; then
-    echo "🔑 Installing GitHub CLI..."
-    brew install gh
-fi
-
-# Ensure gh is authenticated before cloning
-if ! gh auth status &> /dev/null 2>&1; then
-    echo "🔐 Please authenticate with GitHub first, then re-run this script:"
-    echo "   gh auth login"
-    exit 1
-fi
+set -euo pipefail
 
 DOTFILES_DIR="$HOME/Projects/dotfiles"
-if [ ! -d "$DOTFILES_DIR" ]; then
-    echo "📁 Cloning dotfiles repository..."
-    mkdir -p "$HOME/Projects"
-    gh repo clone tiagodinis/dotfiles "$DOTFILES_DIR"
+
+# ---- Make sure the checkout exists -----------------------------------------
+if [ -d "$DOTFILES_DIR/.git" ]; then
+  echo "📁 Using the existing checkout at $DOTFILES_DIR"
+else
+  if ! command -v git >/dev/null 2>&1; then
+    echo "❌ git is required to clone the repo. Install it and re-run:" >&2
+    echo "   macOS: xcode-select --install    Arch: sudo pacman -S git" >&2
+    exit 1
+  fi
+  echo "📁 Cloning dotfiles into $DOTFILES_DIR…"
+  mkdir -p "$(dirname "$DOTFILES_DIR")"
+  git clone https://github.com/tiagodinis/dotfiles.git "$DOTFILES_DIR"
 fi
 
-cd "$DOTFILES_DIR"
+# ---- Flags (the helper lives in the repo, which now exists) ----------------
+. "$DOTFILES_DIR/scripts/bootstrap-lib.sh"
 
-# 3. Restore Brew packages (installs Git, gh, Node, iTerm2, VS Code, Fonts)
-echo "📦 Restoring Homebrew packages..."
-brew bundle --file=./Brewfile
+BOOTSTRAP_USAGE="$(cat <<'EOF'
+Usage: bootstrap.sh [--dry-run] [--yes]
 
-# Fix potential Google Chrome Local State/startup tab corruption from fresh casks
-echo "🔧 Cleaning up Chrome initial state cache..."
-rm -f ~/Library/Application\ Support/Google/Chrome/Local\ State
+  --dry-run, -n   print the steps without changing anything
+  --yes, -y       assume yes for the Omarchy removal prompt
 
-# 4. Install LTS Node via NVM
-echo "🟢 Setting up Node.js..."
-export NVM_DIR="$HOME/.nvm"
-mkdir -p "$NVM_DIR"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
-nvm install --lts || true
-nvm use --lts || true
+The lane is picked from the platform: scripts/mac or scripts/linux.
+EOF
+)"
+bootstrap_parse_args "$@"
 
-# 5. Run Dotfiles Restorations
-echo "🔄 Restoring configurations..."
-npm run restore-all
+# ---- Hand off to the lane --------------------------------------------------
+PLATFORM="$(bash "$DOTFILES_DIR/scripts/detect.sh")"
 
-echo "✨ Bootstrap complete! Remaining manual steps:"
-echo "1. Open Obsidian and enable Community Plugins"
-echo "2. Restart iTerm2 (Cmd + Q)"
+case "$PLATFORM" in
+  mac)   exec bash "$DOTFILES_DIR/scripts/mac/bootstrap.sh" "$@" ;;
+  linux) exec bash "$DOTFILES_DIR/scripts/linux/bootstrap.sh" "$@" ;;
+  *) echo "❌ Unsupported platform: $PLATFORM (only mac/linux wired so far)" >&2; exit 1 ;;
+esac

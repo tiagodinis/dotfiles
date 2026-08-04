@@ -28,5 +28,6 @@
   "dataview",
   "mermaid-view",
   "selection-shortcuts",
-  "expense-auto-rename"
+  "expense-auto-rename",
+  "mod-as-super"
 ]

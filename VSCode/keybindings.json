@@ -1,12 +1,12 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "cmd+i",
+    "key": "meta+i",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetVisible && textInputFocus"
   },
   {
-    "key": "cmd+k",
+    "key": "meta+k",
     "command": "selectNextSuggestion",
     "when": "suggestWidgetVisible && textInputFocus"
   },
@@ -16,47 +16,47 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+i",
+    "key": "meta+i",
     "command": "cursorUp",
     "when": "textInputFocus && !suggestWidgetVisible"
   },
   {
-    "key": "cmd+k",
+    "key": "meta+k",
     "command": "cursorDown",
     "when": "textInputFocus && !suggestWidgetVisible"
   },
   {
-    "key": "cmd+u",
+    "key": "meta+u",
     "command": "cursorLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+o",
+    "key": "meta+o",
     "command": "cursorRight",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+j",
+    "key": "meta+j",
     "command": "cursorWordStartLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+l",
+    "key": "meta+l",
     "command": "cursorWordEndRight",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+h",
+    "key": "meta+h",
     "command": "cursorHome",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+;",
+    "key": "meta+;",
     "command": "cursorEnd",
     "when": "textInputFocus"
   },
   {
-    "key": "cmd+[",
+    "key": "meta+[",
     "command": "editorScroll",
     "args": {
       "to": "up",
@@ -66,7 +66,7 @@
     }
   },
   {
-    "key": "cmd+]",
+    "key": "meta+]",
     "command": "editorScroll",
     "args": {
       "to": "down",
@@ -76,42 +76,42 @@
     }
   },
   {
-    "key": "shift+cmd+i",
+    "key": "shift+meta+i",
     "command": "cursorUpSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+k",
+    "key": "shift+meta+k",
     "command": "cursorDownSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+u",
+    "key": "shift+meta+u",
     "command": "cursorLeftSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+o",
+    "key": "shift+meta+o",
     "command": "cursorRightSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+j",
+    "key": "shift+meta+j",
     "command": "cursorWordStartLeftSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+l",
+    "key": "shift+meta+l",
     "command": "cursorWordEndRightSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+h",
+    "key": "shift+meta+h",
     "command": "cursorHomeSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+;",
+    "key": "shift+meta+;",
     "command": "cursorEndSelect",
     "when": "textInputFocus"
   },
@@ -124,11 +124,11 @@
     "command": "workbench.action.previousEditorInGroup"
   },
   {
-    "key": "ctrl+k ctrl+cmd+j",
+    "key": "ctrl+k ctrl+meta+j",
     "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
-    "key": "ctrl+k ctrl+cmd+l",
+    "key": "ctrl+k ctrl+meta+l",
     "command": "workbench.action.moveEditorToRightGroup"
   },
   {
@@ -142,58 +142,55 @@
     "when": "editorHasDefinitionProvider && editorTextFocus"
   },
   {
-    "key": "cmd+m cmd+1",
-    "command": "inlineChat.start",
-    "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasNotebookAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput && activeEditor == 'workbench.editor.notebook' || editorFocus && inlineChatHasNotebookInline && inlineChatPossible && !editorReadonly && !editorSimpleInput && activeEditor == 'workbench.editor.notebook'"
-  },
-  {
-    "key": "cmd+m cmd+2",
-    "command": "workbench.action.openQuickChat"
-  },
-  {
-    "key": "cmd+m cmd+3",
-    "command": "workbench.action.chat.open",
-    "when": "!chatSetupDisabled && !chatSetupHidden",
-    "args": { "mode": "ask" }
-  },
-  {
-    "key": "cmd+m cmd+4",
-    "command": "workbench.action.chat.open",
-    "when": "!chatSetupDisabled && !chatSetupHidden",
-    "args": { "mode": "edit" }
-  },
-  {
-    "key": "cmd+m cmd+5",
-    "command": "workbench.action.chat.open",
-    "when": "!chatSetupDisabled && !chatSetupHidden",
-    "args": { "mode": "agent" }
-  },
-  {
     "key": "ctrl+m ctrl+.",
     "command": "agentSessions.toggleAgentSessionsSidebar"
   },
   {
-    "key": "shift+cmd+b",
+    "key": "shift+meta+b",
     "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
-    "key": "shift+cmd+t",
-    "command": "todo-tree-view.focus"
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+m ctrl+,",
-    "command": "toggle",
-    "when": "editorTextFocus",
-    "args": {
-      "id": "editor.rulers",
-      "value": [
-        {
-          "editor.rulers": [90, 96]
-        },
-        {
-          "editor.rulers": []
-        }
-      ]
-    }
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "meta+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "shift+meta+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "meta+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "meta+m",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "inChat"
+  },
+  {
+    "key": "meta+m",
+    "command": "workbench.action.chat.open",
+    "when": "!inChat && !chatSetupDisabled && !chatSetupHidden",
+    "args": { "mode": "agent" }
+  },
+  {
+    "key": "shift+meta+m",
+    "command": "workbench.action.toggleMaximizedAuxiliaryBar"
+  },
+  { "key": "shift+meta+e", "command": "workbench.view.explorer" },
+  { "key": "shift+meta+g", "command": "workbench.view.scm" },
+  { "key": "shift+meta+d", "command": "workbench.view.debug" },
+  { "key": "shift+meta+x", "command": "workbench.view.extensions" },
+  {
+    "key": "meta+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
   }
 ]

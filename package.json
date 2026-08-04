@@ -3,25 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "restore-brew": "brew bundle --file=./Brewfile",
-    "save-git": "mkdir -p ./git && cp ~/.gitconfig ./git/.gitconfig 2>/dev/null || true",
-    "restore-git": "cp ./git/.gitconfig ~/.gitconfig 2>/dev/null || true",
-    "setup-zsh-plugins": "test -d ~/.powerlevel10k || git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k && test -d ~/.zsh/zsh-autosuggestions || git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions && test -d ~/.zsh/zsh-syntax-highlighting || git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting",
-    "save-zsh": "mkdir -p ./zsh && cp ~/.zshrc ./zsh/.zshrc 2>/dev/null || true && cp ~/.p10k.zsh ./zsh/.p10k.zsh 2>/dev/null || true",
-    "restore-zsh": "npm run setup-zsh-plugins && cp ./zsh/.zshrc ~/.zshrc 2>/dev/null || true && cp ./zsh/.p10k.zsh ~/.p10k.zsh 2>/dev/null || true",
-    "save-iterm": "mkdir -p ./iterm2 && cp ~/Library/Preferences/com.googlecode.iterm2.plist ./iterm2/ 2>/dev/null || true",
-    "restore-iterm": "defaults write com.googlecode.iterm2 PrefsCustomFolder -string \"$(pwd)/iterm2\" && defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true",
-    "save-vscode": "mkdir -p ./VSCode && code --list-extensions > ./VSCode/extensions.txt 2>/dev/null || true && cp ~/Library/Application\\ Support/Code/User/{settings,keybindings}.json ./VSCode/ 2>/dev/null || true",
-    "restore-vscode": "xargs -n 1 code --install-extension < ./VSCode/extensions.txt 2>/dev/null || true && cp ./VSCode/{settings,keybindings}.json ~/Library/Application\\ Support/Code/User/ 2>/dev/null || true",
-    "save-obsidian": "rm -rf ./.obsidian && cp -r ~/MEGAsync/zettelkasten/.obsidian ./ 2>/dev/null || true",
-    "restore-obsidian": "rm -rf ~/MEGAsync/zettelkasten/.obsidian && cp -r ./.obsidian ~/MEGAsync/zettelkasten/ 2>/dev/null || true",
-    "save-claude": "mkdir -p ./claude/commands && cp ~/.claude/CLAUDE.md ./claude/ 2>/dev/null || true && cp ~/.claude/README.md ./claude/ 2>/dev/null || true && cp ~/.claude/commands/*.md ./claude/commands/ 2>/dev/null || true",
-    "restore-claude": "mkdir -p ~/.claude/commands && cp ./claude/CLAUDE.md ~/.claude/ 2>/dev/null || true && cp ./claude/README.md ~/.claude/ 2>/dev/null || true && cp ./claude/commands/*.md ~/.claude/commands/ 2>/dev/null || true",
-    "save-rectangle": "mkdir -p ./rectangle && defaults export com.knollsoft.Rectangle ./rectangle/com.knollsoft.Rectangle.plist 2>/dev/null || true",
-    "restore-rectangle": "killall Rectangle 2>/dev/null || true && defaults import com.knollsoft.Rectangle ./rectangle/com.knollsoft.Rectangle.plist && open -a Rectangle 2>/dev/null || true",
-    "save-macos": "mkdir -p ./macos && defaults read com.apple.dock autohide-delay > ./macos/dock-delay 2>/dev/null || true",
-    "restore-macos": "defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock 2>/dev/null || true",
-    "save-all": "npm run save-git && npm run save-zsh && npm run save-iterm && npm run save-vscode && npm run save-obsidian && npm run save-claude && npm run save-rectangle && npm run save-macos",
-    "restore-all": "npm run restore-brew && npm run restore-git && npm run restore-zsh && npm run restore-iterm && npm run restore-vscode && npm run restore-obsidian && npm run restore-claude && npm run restore-rectangle && npm run restore-macos"
+    "save": "bash scripts/dotfiles.sh save",
+    "restore": "bash scripts/dotfiles.sh restore"
   }
 }
