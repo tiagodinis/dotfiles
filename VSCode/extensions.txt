@@ -2,7 +2,6 @@ astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
 daylerees.rainglow
-dineug.vuerd-vscode
 docker.docker
 geequlim.godot-tools
 lucax88x.codeacejumper

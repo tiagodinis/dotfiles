@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b706d5e3767b3f4d",
+        "id": "3fa740e8ba665f88",
         "type": "tabs",
         "children": [
           {
-            "id": "ab9cc4a5ac651e1f",
+            "id": "3f415dd0c7bbcc42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Postgres learning track.md",
+                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Postgres learning track"
+              "title": "👁️ 2026-09-26 · Sat · W39"
             }
           }
         ]
@@ -200,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Postgres learning track.md",
+                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,34 +258,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ab9cc4a5ac651e1f",
+  "active": "3f415dd0c7bbcc42",
   "lastOpenFiles": [
-    "Postgresql resources.md",
+    "02 ⚜️ Domains/02 🚹 Body/🗃️ Outputs/🥗 Nutrition/Recipes/🧀🍝 Mac & Cheese.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-25 · Fri · W39.md",
+    "laptop-specs.md",
+    "Instagram tag list pre-wipe.md",
+    "New applications requirements collection.md",
+    "Learning German.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My role at Miiwa.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Single multi-tenant DB case.md",
+    "Daniel Sync.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-24 · Thu · W39.md",
+    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-23 · Wed · W39.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-22 · Tue · W39.md",
+    "02 ⚜️ Domains/05 👥 People/🗃️ Outputs/PREVIOUS VERSION people/Charm/Filipino dictionary.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026 · W38.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-21 · Mon · W39.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-20 · Sun · W38.md",
+    "02 ⚜️ Domains/05 👥 People/🗃️ Outputs/PREVIOUS VERSION people/Dating/Openers.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026 · W39.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-27 · Sun · W39.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-19 · Sat · W38.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Postgres learning track.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Day log.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Competition.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Game plan.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/General questions.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Links.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Side quests.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/PoC.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Session 01 - Database only.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-15 · Tue · W38.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Planned Architecture.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/FIRMWARE_QUESTIONAIRE_POC_ANSWERS.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Current system issue analysis.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/New DB proof of concept.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Index.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Architecture Decisions.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/FIRMWARE_QUESTIONAIRE_POC.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/REVIEW.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Firmware questionaire.md",
-    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
-    "01 ♟️ Moves/05 📥 Inputs/02 🍿 Watchables.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026 · W38.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-14 · Mon · W38.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026 · W37.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-20 · Sun · W38.md",
+    "04 🗄️ Archive/02 📎 Attachments/backward_compatible_miiwa_architecture.png",
     "Untitled",
     "04 🗄️ Archive/02 📎 Attachments/Screenshot 2026-06-10 at 14.22.58.png",
     "OLD NOTES TO MOVE/Product Management/Product People/TED.pdf",
@@ -307,7 +308,6 @@
     "04 🗄️ Archive/02 🖼️ Media/Changes in income, population, or preferences.png",
     "01 ♟️ Moves/03 🚀 Projects/Starky/Starky.canvas",
     "04 🗄️ Archive/02 🖼️ Media/Capture (2).png",
-    "04 🗄️ Archive/02 🖼️ Media/clockwork_battler.png",
     "♟️ Moves/Tracks.canvas",
     "wee.canvas",
     "OLD NOTES TO MOVE/🚧 WIPs/Dashboard/Dashboard.canvas",

@@ -34,6 +34,7 @@ hl.unbind("SUPER + RETURN")
 o.bind("ALT + RETURN", "Terminal", { omarchy = "terminal" })
 hl.unbind("SUPER + SHIFT + RETURN")
 o.bind("ALT + SHIFT + RETURN", "Browser", { omarchy = "browser" })
+o.bind("ALT + C", "Agent (opencode)", "omarchy-agent")
 
 -- ── Emoji picker ────────────────────────────────────────────────────────────
 hl.unbind("SUPER + CTRL + E")
