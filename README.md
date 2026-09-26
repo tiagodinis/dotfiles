@@ -5,7 +5,7 @@ Personal configuration, saved from and restored to machines through two lanes:
 | Lane | Targets |
 |---|---|
 | `mac` | `git` `zsh` `vscode` `obsidian` `copilot` · `brew` `iterm` `rectangle` `macos` |
-| `omarchy` | `git` `zsh` `vscode` `obsidian` `copilot` · `hypr` `handy` `fcitx5` `keyd` |
+| `omarchy` | `git` `zsh` `vscode` `obsidian` `copilot` · `hypr` `shell` `handy` `fcitx5` `keyd` |
 
 ## Usage
 

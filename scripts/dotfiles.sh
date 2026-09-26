@@ -17,7 +17,7 @@
 # part of the Omarchy bootstrap, see scripts/linux/bootstrap.sh.
 #
 # mac lane:      brew git zsh iterm rectangle macos vscode obsidian copilot
-# omarchy lane:  git zsh vscode obsidian copilot hypr handy fcitx5 keyd
+# omarchy lane:  git zsh vscode obsidian copilot hypr shell handy fcitx5 keyd
 # (vscode/obsidian/copilot are shared, so they appear in both lanes.)
 set -euo pipefail
 
@@ -26,9 +26,9 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 . "$REPO_DIR/scripts/mac.sh"   # mac lane targets
 
 # Ordered registry per lane: shared apps first, then lane-specific targets.
-TARGETS_ALL="git zsh vscode obsidian copilot brew iterm rectangle macos hypr handy fcitx5 keyd"
+TARGETS_ALL="git zsh vscode obsidian copilot brew iterm rectangle macos hypr shell handy fcitx5 keyd"
 TARGETS_MAC="git zsh vscode obsidian copilot brew iterm rectangle macos"
-TARGETS_OMARCHY="git zsh vscode obsidian copilot hypr handy fcitx5 keyd"
+TARGETS_OMARCHY="git zsh vscode obsidian copilot hypr shell handy fcitx5 keyd"
 
 usage() {
   cat <<'EOF'
@@ -39,13 +39,14 @@ Usage: npm run <save|restore> [lane] [target...]
   target  a single item from the lane (omit it for the whole lane)
 
   mac lane:      brew git zsh iterm rectangle macos vscode obsidian copilot
-  omarchy lane:  git zsh vscode obsidian copilot hypr handy fcitx5 keyd
+  omarchy lane:  git zsh vscode obsidian copilot hypr shell handy fcitx5 keyd
 
 Examples:
   npm run save                    save every applicable target on this machine
   npm run restore mac             restore the whole mac lane
   npm run restore omarchy         restore the whole omarchy lane
   npm run save omarchy hypr       save only the Hyprland files
+  npm run save omarchy shell      save only the bar layout + user plugins
   npm run restore mac zsh         restore only zsh
   bash scripts/dotfiles.sh list   print the target registry
 EOF
@@ -81,7 +82,7 @@ run_target() {
   # Functions are named "<target>_<action>" (git_save, iterm_restore, …).
   local fn="${target}_${action}"
   case "$target" in
-    hypr|handy|fcitx5|keyd)
+    hypr|shell|handy|fcitx5|keyd)
       bash "$REPO_DIR/scripts/omarchy.sh" "$action" "$target" ;;
     *)
       if declare -F "$fn" >/dev/null; then

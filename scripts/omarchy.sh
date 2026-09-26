@@ -5,11 +5,12 @@
 #   keyd    /etc/keyd/{default,magic}.conf (restore needs sudo)
 #   handy   Handy app settings — only the keys listed in omarchy/handy/settings.json
 #           (that file is hand-maintained, so save_handy is a no-op)
+#   shell   ~/.config/omarchy/{shell.json,plugins} — bar layout + user plugins
 #   voxtype prune-only: remove the unwanted Voxtype dictation leftovers
 # Prune removes unwanted stock/optional software — see omarchy/README.md.
 # A full restore also prunes it.
 #
-# Usage: bash scripts/omarchy.sh save|restore|prune [hypr|fcitx5|keyd|handy|voxtype|all]
+# Usage: bash scripts/omarchy.sh save|restore|prune [hypr|fcitx5|keyd|handy|shell|voxtype|all]
 # Called by scripts/dotfiles.sh; safe to run directly too.
 set -euo pipefail
 
@@ -23,6 +24,7 @@ if [ "$(uname -s)" != "Linux" ]; then
 fi
 
 HYPR_SRC="$HOME/.config/hypr"
+SHELL_SRC="$HOME/.config/omarchy"
 FCITX_SRC="$HOME/.config/fcitx5/conf"
 HANDY_DIR="$HOME/.local/share/com.pais.handy"
 HANDY_STORE="$HANDY_DIR/settings_store.json"
@@ -36,6 +38,17 @@ save_hypr() {
       cp "$HYPR_SRC/$f" "$REPO_DIR/omarchy/hypr/$f"
     fi
   done
+}
+
+save_shell() {
+  mkdir -p "$REPO_DIR/omarchy/shell"
+  if [ -f "$SHELL_SRC/shell.json" ]; then
+    cp "$SHELL_SRC/shell.json" "$REPO_DIR/omarchy/shell/shell.json"
+  fi
+  if [ -d "$SHELL_SRC/plugins" ]; then
+    rm -rf "$REPO_DIR/omarchy/shell/plugins"
+    cp -r "$SHELL_SRC/plugins" "$REPO_DIR/omarchy/shell/plugins"
+  fi
 }
 
 save_fcitx5() {
@@ -140,6 +153,20 @@ restore_hypr() {
   fi
 }
 
+restore_shell() {
+  mkdir -p "$SHELL_SRC"
+  if [ -f "$REPO_DIR/omarchy/shell/shell.json" ]; then
+    cp "$REPO_DIR/omarchy/shell/shell.json" "$SHELL_SRC/shell.json"
+  fi
+  if [ -d "$REPO_DIR/omarchy/shell/plugins" ]; then
+    rm -rf "$SHELL_SRC/plugins"
+    cp -r "$REPO_DIR/omarchy/shell/plugins" "$SHELL_SRC/plugins"
+  fi
+  if command -v omarchy >/dev/null 2>&1; then
+    omarchy restart shell >/dev/null 2>&1 || true
+  fi
+}
+
 restore_fcitx5() {
   mkdir -p "$FCITX_SRC"
   if [ -f "$REPO_DIR/omarchy/fcitx5/conf/quickphrase.conf" ]; then
@@ -174,8 +201,8 @@ restore_keyd() {
 case "$ACTION" in
   save)
     case "$TARGET" in
-      all) for t in hypr fcitx5 keyd handy; do "save_$t"; done ;;
-      hypr|fcitx5|keyd|handy) "save_$TARGET" ;;
+      all) for t in hypr shell fcitx5 keyd handy; do "save_$t"; done ;;
+      hypr|shell|fcitx5|keyd|handy) "save_$TARGET" ;;
       *) echo "❌ omarchy: cannot save '$TARGET'" >&2; exit 1 ;;
     esac
     echo "💾 omarchy config saved ($TARGET)."
@@ -183,10 +210,10 @@ case "$ACTION" in
   restore)
     case "$TARGET" in
       all)
-        for t in hypr fcitx5 keyd handy; do "restore_$t"; done
+        for t in hypr shell fcitx5 keyd handy; do "restore_$t"; done
         remove_voxtype
         ;;
-      hypr|fcitx5|keyd|handy) "restore_$TARGET" ;;
+      hypr|shell|fcitx5|keyd|handy) "restore_$TARGET" ;;
       *) echo "❌ omarchy: cannot restore '$TARGET'" >&2; exit 1 ;;
     esac
     echo "🔄 omarchy config restored ($TARGET)."
@@ -199,7 +226,7 @@ case "$ACTION" in
     echo "🧹 Pruned unwanted Omarchy software."
     ;;
   *)
-    echo "usage: bash scripts/omarchy.sh save|restore|prune [hypr|fcitx5|keyd|handy|voxtype|all]" >&2
+    echo "usage: bash scripts/omarchy.sh save|restore|prune [hypr|shell|fcitx5|keyd|handy|voxtype|all]" >&2
     exit 1
     ;;
 esac

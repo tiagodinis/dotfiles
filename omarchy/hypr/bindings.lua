@@ -40,6 +40,13 @@ hl.unbind("SUPER + CTRL + E")
 hl.unbind("SUPER + CTRL + SPACE")
 o.bind("SUPER + CTRL + SPACE", "Emojis", "omarchy-shell shell toggle omarchy.emojis")
 
+-- ── Keyboard layout ─────────────────────────────────────────────────────────
+-- keyd re-emits through keyd-virtual-keyboard, and fcitx5 binds a virtual
+-- keyboard holding the main flag, so the whole seat has to advance together to
+-- reach the device being typed on (same as the bar widget). CTRL+SPACE is left
+-- free for this by disabling VS Code's Trigger Suggest in VSCode/keybindings.json.
+o.bind("CTRL + SPACE", "Switch keyboard layout", "hyprctl switchxkblayout all next")
+
 -- ── Windows (moved SUPER -> ALT) ────────────────────────────────────────────
 hl.unbind("SUPER + F")
 o.bind("ALT + F", "Full screen", hl.dsp.window.fullscreen({ mode = "fullscreen" }))

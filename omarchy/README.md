@@ -15,6 +15,9 @@ omarchy/
 │   ├── monitors.lua   # eDP-1 + HDMI-A-1 layout and workspace rules
 │   └── handy-ptt.sh   # Handy hold-to-talk bridge
 ├── handy/             # settings.json (keys restore applies) + apply-settings.py
+├── shell/             # → ~/.config/omarchy
+│   ├── shell.json     # bar layout, idle/lock, clock format
+│   └── plugins/       # user-cloned shell widgets (workspaces, keyboard-layout)
 ├── fcitx5/conf/       # quickphrase.conf — Quick Phrase trigger disabled
 └── etc/keyd/          # default.conf (HP keyboard) + magic.conf (Magic Keyboard)
 ```
@@ -22,8 +25,9 @@ omarchy/
 ## Usage
 
 - `npm run save omarchy` / `npm run restore omarchy` — repo ↔ live.
-- One target: `npm run restore omarchy hypr` (`hypr`, `fcitx5`, `keyd`, `handy`).
-  `hypr` also reloads Hyprland; `keyd` needs sudo; `handy` stops/merges/restarts
+- One target: `npm run restore omarchy hypr` (`hypr`, `shell`, `fcitx5`, `keyd`,
+  `handy`). `hypr` also reloads Hyprland; `shell` copies the bar config + user
+  plugins and restarts the shell; `keyd` needs sudo; `handy` stops/merges/restarts
   the app (its store caches settings in memory).
 - Prune (drops unwanted software) is not a command — `scripts/linux/bootstrap.sh`
   runs it after a prompt, and a full restore also removes Voxtype.
