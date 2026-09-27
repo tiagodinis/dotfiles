@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
+                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-27 · Sun · W39.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "👁️ 2026-09-26 · Sat · W39"
+              "title": "👁️ 2026-09-27 · Sun · W39"
             }
           }
         ]
@@ -200,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
+                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-27 · Sun · W39.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -260,18 +260,23 @@
   },
   "active": "3f415dd0c7bbcc42",
   "lastOpenFiles": [
+    "React grid.md",
+    "Soundboard planning.md",
+    "utils - sfx folder structures for agents.md",
+    "Instagram tag list pre-wipe.md",
+    "Postgresql resources.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-27 · Sun · W39.md",
+    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
     "02 ⚜️ Domains/02 🚹 Body/🗃️ Outputs/🥗 Nutrition/Recipes/🧀🍝 Mac & Cheese.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-26 · Sat · W39.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-25 · Fri · W39.md",
     "laptop-specs.md",
-    "Instagram tag list pre-wipe.md",
     "New applications requirements collection.md",
     "Learning German.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My role at Miiwa.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Single multi-tenant DB case.md",
     "Daniel Sync.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-24 · Thu · W39.md",
-    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-23 · Wed · W39.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-22 · Tue · W39.md",
     "02 ⚜️ Domains/05 👥 People/🗃️ Outputs/PREVIOUS VERSION people/Charm/Filipino dictionary.md",
@@ -280,12 +285,7 @@
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-20 · Sun · W38.md",
     "02 ⚜️ Domains/05 👥 People/🗃️ Outputs/PREVIOUS VERSION people/Dating/Openers.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026 · W39.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-27 · Sun · W39.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-19 · Sat · W38.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Postgres learning track.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/PoC.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Planned Architecture.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/FIRMWARE_QUESTIONAIRE_POC_ANSWERS.md",
     "04 🗄️ Archive/02 📎 Attachments/backward_compatible_miiwa_architecture.png",
     "Untitled",
     "04 🗄️ Archive/02 📎 Attachments/Screenshot 2026-06-10 at 14.22.58.png",

@@ -153,6 +153,5 @@
 		"https://biomejs.dev": true
 	},
 	"scm.repositories.selectionMode": "single",
-	"terminal.integrated.enableMultiLinePasteWarning": "never",
-	"chat.viewSessions.orientation": "stacked"
+	"terminal.integrated.enableMultiLinePasteWarning": "never"
 }
