@@ -8,7 +8,8 @@ Source of truth for personal GitHub Copilot agents and skills, synced to the use
 copilot/
 ├── agents/                          → ~/.copilot/agents/         (user-level custom agents)
 │   ├── meta-agent-reviewer.agent.md    audits agent/skill quality
-│   └── tutor.agent.md                  Socratic tutor (behavior only; loads skills)
+│   ├── tutor.agent.md                  Socratic tutor (behavior only; loads skills)
+│   └── merge-reconciler.agent.md       reconciles a branch after another merged first
 ├── skills/                          → ~/.copilot/skills/
 │   └── postgres-learning/
 │       ├── SKILL.md
@@ -31,4 +32,6 @@ copilot/
 `tutor` is a subject-agnostic teaching persona. The domain is loaded into it by a matching `*-learning` skill (e.g. `postgres-learning`), so adding Redis or auth means adding a skill, never editing the agent. Name the topic (e.g. *"teach me Postgres from zero"*) and the skill loads automatically; steer the lesson with **fast/speedrun**, **slow/thorough**, **review/quiz me**, or **just tell me**.
 
 `meta-agent-reviewer` audits an `.agent.md` or `SKILL.md` and returns a scorecard on scope, tool scoping, and structure.
+
+`merge-reconciler` is invoked on a feature branch whose base has moved ahead — say `main` after a different feature merged. It reports what landed on the base, surfaces textual and semantic conflicts, proposes resolutions, applies only what you approve, then runs the repo's checks to prove both the merged-in feature and this branch still work.
 
