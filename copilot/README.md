@@ -9,7 +9,8 @@ copilot/
 ├── agents/                          → ~/.copilot/agents/         (user-level custom agents)
 │   ├── meta-agent-reviewer.agent.md    audits agent/skill quality
 │   ├── tutor.agent.md                  Socratic tutor (behavior only; loads skills)
-│   └── merge-reconciler.agent.md       reconciles a branch after another merged first
+│   ├── implementer.agent.md            implements prompts; hands off URL; lands on approval
+│   └── merge-reconciler.agent.md       reconciles a branch after another merged first; lands approved work
 ├── skills/                          → ~/.copilot/skills/
 │   └── postgres-learning/
 │       ├── SKILL.md
@@ -31,7 +32,9 @@ copilot/
 
 `tutor` is a subject-agnostic teaching persona. The domain is loaded into it by a matching `*-learning` skill (e.g. `postgres-learning`), so adding Redis or auth means adding a skill, never editing the agent. Name the topic (e.g. *"teach me Postgres from zero"*) and the skill loads automatically; steer the lesson with **fast/speedrun**, **slow/thorough**, **review/quiz me**, or **just tell me**.
 
+`implementer` does the hands-on work: prompt it with a change and it implements, validates, and closes every turn with a short handoff — what was implemented, the running URL when one applies (left running for your manual check), and the few things to test by hand. Say *"all good"* once you've verified, and it lands the work — rebase onto the base branch, one squashed commit, green checks, merge. The *All good — merge it* handoff button runs the same landing through `merge-reconciler`.
+
 `meta-agent-reviewer` audits an `.agent.md` or `SKILL.md` and returns a scorecard on scope, tool scoping, and structure.
 
-`merge-reconciler` is invoked on a feature branch whose base has moved ahead — say `main` after a different feature merged. It reports what landed on the base, surfaces textual and semantic conflicts, proposes resolutions, applies only what you approve, then runs the repo's checks to prove both the merged-in feature and this branch still work.
+`merge-reconciler` is invoked on a feature branch whose base has moved ahead — say `main` after a different feature merged. It reports what landed on the base, surfaces textual and semantic conflicts, proposes resolutions, applies only what you approve, then runs the repo's checks to prove both the merged-in feature and this branch still work. With approval — the *All good — merge it* handoff after an implementer run, or an explicit *"rebase with main, squash and merge a single commit"* — it enters *Landing mode* and skips the recon-and-wait loop: rebase, squash to one commit, checks, merge.
 
