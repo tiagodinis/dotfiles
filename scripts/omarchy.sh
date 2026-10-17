@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Omarchy (Linux/Arch + Hyprland) lane — per-target save/restore for:
-#   hypr    ~/.config/hypr/{hyprland,bindings,input,monitors}.lua + handy-ptt.sh
+#   hypr    ~/.config/hypr/{hyprland,envs,bindings,input,monitors}.lua + handy-ptt.sh
 #   fcitx5  ~/.config/fcitx5/conf/quickphrase.conf
 #   keyd    /etc/keyd/{default,magic}.conf (restore needs sudo)
 #   handy   Handy app settings — only the keys listed in omarchy/handy/settings.json
 #           (that file is hand-maintained, so save_handy is a no-op)
-#   shell   ~/.config/omarchy/{shell.json,plugins} — bar layout + user plugins
+#   shell   ~/.config/omarchy/{shell.json,plugins,bin} — bar layout, user plugins, bin wrappers
 #   voxtype prune-only: remove the unwanted Voxtype dictation leftovers
 # Prune removes unwanted stock/optional software — see omarchy/README.md.
 # A full restore also prunes it.
@@ -33,7 +33,7 @@ HANDY_DESIRED="$REPO_DIR/omarchy/handy/settings.json"
 # ---- save ------------------------------------------------------------------
 save_hypr() {
   mkdir -p "$REPO_DIR/omarchy/hypr"
-  for f in hyprland.lua bindings.lua input.lua monitors.lua handy-ptt.sh; do
+  for f in hyprland.lua envs.lua bindings.lua input.lua monitors.lua handy-ptt.sh; do
     if [ -f "$HYPR_SRC/$f" ]; then
       cp "$HYPR_SRC/$f" "$REPO_DIR/omarchy/hypr/$f"
     fi
@@ -48,6 +48,12 @@ save_shell() {
   if [ -d "$SHELL_SRC/plugins" ]; then
     rm -rf "$REPO_DIR/omarchy/shell/plugins"
     cp -r "$SHELL_SRC/plugins" "$REPO_DIR/omarchy/shell/plugins"
+  fi
+  # User bin wrappers (e.g. ttfx pins the screensaver effect); PATH-prefixed
+  # via hypr/envs.lua, so they live with the shell target.
+  if [ -d "$SHELL_SRC/bin" ]; then
+    rm -rf "$REPO_DIR/omarchy/shell/bin"
+    cp -r "$SHELL_SRC/bin" "$REPO_DIR/omarchy/shell/bin"
   fi
 }
 
@@ -140,7 +146,7 @@ restore_handy() {
 # ---- restore ---------------------------------------------------------------
 restore_hypr() {
   mkdir -p "$HYPR_SRC"
-  for f in hyprland.lua bindings.lua input.lua monitors.lua handy-ptt.sh; do
+  for f in hyprland.lua envs.lua bindings.lua input.lua monitors.lua handy-ptt.sh; do
     if [ -f "$REPO_DIR/omarchy/hypr/$f" ]; then
       cp "$REPO_DIR/omarchy/hypr/$f" "$HYPR_SRC/$f"
     fi
@@ -161,6 +167,11 @@ restore_shell() {
   if [ -d "$REPO_DIR/omarchy/shell/plugins" ]; then
     rm -rf "$SHELL_SRC/plugins"
     cp -r "$REPO_DIR/omarchy/shell/plugins" "$SHELL_SRC/plugins"
+  fi
+  if [ -d "$REPO_DIR/omarchy/shell/bin" ]; then
+    rm -rf "$SHELL_SRC/bin"
+    cp -r "$REPO_DIR/omarchy/shell/bin" "$SHELL_SRC/bin"
+    chmod +x "$SHELL_SRC"/bin/* 2>/dev/null || true
   fi
   if command -v omarchy >/dev/null 2>&1; then
     omarchy restart shell >/dev/null 2>&1 || true

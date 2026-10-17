@@ -10,6 +10,7 @@ the actual configs this lane carries.
 omarchy/
 ├── hypr/              # → ~/.config/hypr
 │   ├── hyprland.lua   # entry: Omarchy defaults + user modules + window rules
+│   ├── envs.lua       # session PATH override (prepends ~/.config/omarchy/bin)
 │   ├── bindings.lua   # keybindings (unbind defaults, ALT scheme)
 │   ├── input.lua      # pointer/touchpad (keyboard mapping is keyd's job)
 │   ├── monitors.lua   # eDP-1 + HDMI-A-1 layout and workspace rules
@@ -17,7 +18,8 @@ omarchy/
 ├── handy/             # settings.json (keys restore applies) + apply-settings.py
 ├── shell/             # → ~/.config/omarchy
 │   ├── shell.json     # bar layout, idle/lock, clock format
-│   └── plugins/       # user-cloned shell widgets (workspaces, keyboard-layout)
+│   ├── plugins/       # user-cloned shell widgets (workspaces, keyboard-layout)
+│   └── bin/           # user bin wrappers on PATH (ttfx pins the screensaver effect)
 ├── fcitx5/conf/       # quickphrase.conf — Quick Phrase trigger disabled
 └── etc/keyd/          # default.conf (HP keyboard) + magic.conf (Magic Keyboard)
 ```

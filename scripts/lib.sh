@@ -82,6 +82,8 @@ obsidian_save() {
 # Mirrors the repo into the user profile: replaces agents/ and skills/ wholesale,
 # so renamed or deleted agents/skills never linger. Anything hand-added inside
 # those two folders is overwritten — keep personal work in the repo.
+# pstack-models.md is a single file, not a folder: copied in place when the repo
+# has one, otherwise left alone, because the pstack plugin reads it from here.
 copilot_restore() {
   for d in agents skills; do
     rm -rf "${COPILOT_USER_DIR:?}/$d"   # :? guard so an empty var can't mean "/agents"
@@ -89,6 +91,9 @@ copilot_restore() {
   done
   cp "$REPO_DIR"/copilot/agents/*.agent.md "$COPILOT_USER_DIR/agents/" 2>/dev/null || true
   cp -r "$REPO_DIR"/copilot/skills/. "$COPILOT_USER_DIR/skills/" 2>/dev/null || true
+  if [[ -f "$REPO_DIR/copilot/pstack-models.md" ]]; then
+    cp "$REPO_DIR/copilot/pstack-models.md" "$COPILOT_USER_DIR/pstack-models.md"
+  fi
 }
 
 copilot_save() {
@@ -96,4 +101,7 @@ copilot_save() {
   cp "$COPILOT_USER_DIR"/agents/*.agent.md "$REPO_DIR/copilot/agents/" 2>/dev/null || true
   mkdir -p "$REPO_DIR/copilot/skills"
   cp -r "$COPILOT_USER_DIR"/skills/. "$REPO_DIR/copilot/skills/" 2>/dev/null || true
+  if [[ -f "$COPILOT_USER_DIR/pstack-models.md" ]]; then
+    cp "$COPILOT_USER_DIR/pstack-models.md" "$REPO_DIR/copilot/pstack-models.md"
+  fi
 }

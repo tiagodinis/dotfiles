@@ -8,18 +8,54 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dabade57b4bd8b30",
+            "id": "6e5f256fdbe53f51",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-04 · Sun · W40.md",
+                "file": "Session 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "👁️ 2026-10-04 · Sun · W40"
+              "title": "Session 1"
+            }
+          },
+          {
+            "id": "d1ed52509f787b52",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Session 2"
+            }
+          },
+          {
+            "id": "d709f6e70bd03854",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-07 · Wed · W41.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "👁️ 2026-10-07 · Wed · W41"
             }
           }
         ]
@@ -56,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dumbb",
+                "query": "french",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,7 +236,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-04 · Sun · W40.md",
+                "file": "Session 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,34 +294,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dabade57b4bd8b30",
+  "active": "6e5f256fdbe53f51",
   "lastOpenFiles": [
-    "02 ⚜️ Domains/07 💼 Work/🧰 Resources/Areas or improvement.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-04 · Sun · W40.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-05 · Mon · W41.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-03 · Sat · W40.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Links.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-02 · Fri · W40.md",
+    "Session 2.md",
+    "Session 1.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-07 · Wed · W41.md",
+    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Business sense notes.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Tech stack & TVDA.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/People.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My role at Miiwa.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My Mission and Goals.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Market & Regions.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Business model.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Architecture overview.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/About Orionis.md",
     "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-06 · Tue · W41.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-01 · Thu · W40.md",
-    "03 ⚗️ R2S/01 🗳️ Inbox/High Agency in 30 Minutes.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-30 · Wed · W40.md",
+    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-10-05 · Mon · W41.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Context.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Website & Branding.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Templates.md",
-    "Today's session.md",
-    "03 ⚗️ R2S/01 🗳️ Inbox/The long argument.md",
-    "04 🗄️ Archive/01 🔳 Dashboards/👁️ 2026-09-29 · Tue · W40.md",
-    "01 ♟️ Moves/01 🧭 Priorities/02 ⏰ Short-term.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Index.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Products/Configurator.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Products/Monitor.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Competition.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Single multi-tenant DB case.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Session 01 - Database only.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Resources.md",
     "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/DB/Postgres learning track.md",
-    "01 ♟️ Moves/05 📥 Inputs/03 🎮 Videogames.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Business model.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Index.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Market & Regions.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My Mission and Goals.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/My role at Miiwa.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/People.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Tech stack & TVDA.md",
-    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/Knowledge base/Website & Branding.md",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/documents/onboarding_company_and_product_es.pdf",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/documents/work_contract_signed.pdf",
+    "02 ⚜️ Domains/07 💼 Work/🗃️ Outputs/MIWA/documents/pre-onboarding_en.pdf",
     "04 🗄️ Archive/02 📎 Attachments/backward_compatible_miiwa_architecture.png",
     "Untitled",
     "04 🗄️ Archive/02 📎 Attachments/Screenshot 2026-06-10 at 14.22.58.png",
@@ -295,9 +335,6 @@
     "04 🗄️ Archive/02 📎 Attachments/fertility_tests_redacted.pdf",
     "04 🗄️ Archive/02 📎 Attachments",
     "04 🗄️ Archive/02 🖼️ Media/fertility_tests.pdf",
-    "04 🗄️ Archive/02 🖼️ Media/fertility_tests 1.pdf",
-    "02 ⚜️ Domains/06 🌱 Seeding/🗃️ Outputs/Informal donation/PT/Materials",
-    "02 ⚜️ Domains/06 🌱 Seeding/🗃️ Outputs/Informal donation/PT",
     "04 🗄️ Archive/02 🖼️ Media/Change in expected future prices and demand.png",
     "04 🗄️ Archive/02 🖼️ Media/Capture (1).png",
     "04 🗄️ Archive/02 🖼️ Media/6_principles_of_design.jpg",

@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# User override for the Omarchy screensaver.
+#
+# The stock omarchy-screensaver runs `ttfx --random-effect`, so it cycles
+# through a random TTE effect every time. This wrapper injects
+# `--include-effects` whenever --random-effect/-R is requested, pinning the
+# screensaver to the effect(s) listed below.
+#
+# List one or more effects, space separated. See `ttfx --help` for the names.
+SCREENSAVER_EFFECTS="matrix"
+
+for arg in "$@"; do
+  case "$arg" in
+    -R|--random-effect)
+      exec /usr/bin/ttfx "$@" --include-effects $SCREENSAVER_EFFECTS
+      ;;
+  esac
+done
+
+exec /usr/bin/ttfx "$@"

@@ -15,6 +15,9 @@ require("hypr.looknfeel")
 require("hypr.autostart")
 require("default.hypr.toggles")
 
+-- Personal PATH override (screensaver effect pinning); must load last.
+require("hypr.envs")
+
 -- Keep Handy's recording overlay visible but never focusable, or the transcript
 -- is typed into it instead of the focused app (see README.md).
 o.window(

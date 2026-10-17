@@ -25,3 +25,9 @@
     amend = commit --amend --verbose
     cleanup = "!git branch -vvv | grep ': gone]' | grep -v '\\*' | awk '{ print \"git branch -D\", $1 }' | bash"
     ls = log --stat
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/tiagoddinis/.local/share/mise/installs/gh/2.100.0/gh_2.100.0_linux_amd64/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/tiagoddinis/.local/share/mise/installs/gh/2.100.0/gh_2.100.0_linux_amd64/bin/gh auth git-credential
